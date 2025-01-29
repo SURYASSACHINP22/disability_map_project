@@ -1,0 +1,1777 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Dimap_Document name="running_water_mask.dim">
+    <Metadata_Id>
+        <METADATA_FORMAT version="2.13.0">DIMAP</METADATA_FORMAT>
+        <METADATA_PROFILE>BEAM-DATAMODEL-V1</METADATA_PROFILE>
+    </Metadata_Id>
+    <Dataset_Id>
+        <DATASET_SERIES>BEAM-PRODUCT</DATASET_SERIES>
+        <DATASET_NAME>running_water_mask</DATASET_NAME>
+    </Dataset_Id>
+    <Dataset_Use>
+        <DATASET_COMMENTS>ALOS PALSAR product 3</DATASET_COMMENTS>
+    </Dataset_Use>
+    <Production>
+        <DATASET_PRODUCER_NAME />
+        <PRODUCT_TYPE>BandMath</PRODUCT_TYPE>
+        <PRODUCT_SCENE_RASTER_START_TIME>21-APR-2011 05:15:14.356000</PRODUCT_SCENE_RASTER_START_TIME>
+        <PRODUCT_SCENE_RASTER_STOP_TIME>21-APR-2011 05:15:23.904000</PRODUCT_SCENE_RASTER_STOP_TIME>
+    </Production>
+    <Coordinate_Reference_System>
+        <WKT>
+             GEOGCS["WGS84(DD)", 
+               DATUM["WGS84", 
+                 SPHEROID["WGS84", 6378137.0, 298.257223563]], 
+               PRIMEM["Greenwich", 0.0], 
+               UNIT["degree", 0.017453292519943295], 
+               AXIS["Geodetic longitude", EAST], 
+               AXIS["Geodetic latitude", NORTH], 
+               AUTHORITY["EPSG","4326"]]
+        </WKT>
+    </Coordinate_Reference_System>
+    <Geoposition>
+        <BAND_INDEX>0</BAND_INDEX>
+        <IMAGE_TO_MODEL_TRANSFORM>1.1228941051494019E-4,0.0,0.0,-1.1228941051494019E-4,-112.02375382232997,60.183714038839774</IMAGE_TO_MODEL_TRANSFORM>
+    </Geoposition>
+    <Raster_Dimensions>
+        <NCOLS>7127</NCOLS>
+        <NROWS>5621</NROWS>
+        <NBANDS>1</NBANDS>
+    </Raster_Dimensions>
+    <Data_Access>
+        <DATA_FILE_FORMAT>ENVI</DATA_FILE_FORMAT>
+        <DATA_FILE_FORMAT_DESC>ENVI File Format</DATA_FILE_FORMAT_DESC>
+        <DATA_FILE_ORGANISATION>BAND_SEPARATE</DATA_FILE_ORGANISATION>
+        <Data_File>
+            <DATA_FILE_PATH href="running_water_mask.data/Running_water.hdr" />
+            <BAND_INDEX>0</BAND_INDEX>
+        </Data_File>
+    </Data_Access>
+    <Image_Interpretation>
+        <Spectral_Band_Info>
+            <BAND_INDEX>0</BAND_INDEX>
+            <BAND_DESCRIPTION />
+            <BAND_NAME>Running_water</BAND_NAME>
+            <BAND_RASTER_WIDTH>7127</BAND_RASTER_WIDTH>
+            <BAND_RASTER_HEIGHT>5621</BAND_RASTER_HEIGHT>
+            <DATA_TYPE>float32</DATA_TYPE>
+            <SOLAR_FLUX>0.0</SOLAR_FLUX>
+            <BAND_WAVELEN>0.0</BAND_WAVELEN>
+            <BAND_ANGULAR_VALUE>-999.0</BAND_ANGULAR_VALUE>
+            <BANDWIDTH>0.0</BANDWIDTH>
+            <SCALING_FACTOR>1.0</SCALING_FACTOR>
+            <SCALING_OFFSET>0.0</SCALING_OFFSET>
+            <LOG10_SCALED>false</LOG10_SCALED>
+            <NO_DATA_VALUE_USED>false</NO_DATA_VALUE_USED>
+            <NO_DATA_VALUE>0.0</NO_DATA_VALUE>
+            <IMAGE_TO_MODEL_TRANSFORM>1.1228941051494019E-4,0.0,0.0,-1.1228941051494019E-4,-112.02375382232997,60.183714038839774</IMAGE_TO_MODEL_TRANSFORM>
+        </Spectral_Band_Info>
+    </Image_Interpretation>
+    <Dataset_Sources>
+        <MDElem name="metadata">
+            <MDElem name="Abstracted_Metadata">
+                <MDATTR name="PRODUCT" desc="Product name" unit="" type="ascii" mode="rw">ALOS-P1_5_UA-ORBIT__ALPSRP279071200</MDATTR>
+                <MDATTR name="PRODUCT_TYPE" desc="Product type" unit="" type="ascii" mode="rw">P1.5</MDATTR>
+                <MDATTR name="SPH_DESCRIPTOR" desc="Description" unit="" type="ascii" mode="rw">STANDARD GEOCODED IMAGE</MDATTR>
+                <MDATTR name="MISSION" desc="Satellite mission" unit="" type="ascii" mode="rw">ALOS</MDATTR>
+                <MDATTR name="ACQUISITION_MODE" desc="Acquisition mode" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="antenna_pointing" desc="Right or left facing" unit="" type="ascii" mode="rw">right</MDATTR>
+                <MDATTR name="BEAMS" desc="Beams used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="SWATH" desc="Swath name" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="PROC_TIME" desc="Processed time" unit="utc" type="utc" mode="rw">23-OCT-2016 12:30:40.000000</MDATTR>
+                <MDATTR name="Processing_system_identifier" desc="Processing system identifier" unit="" type="ascii" mode="rw">ALOS-DPS</MDATTR>
+                <MDATTR name="orbit_cycle" desc="Cycle" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="REL_ORBIT" desc="Track" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="ABS_ORBIT" desc="Orbit" unit="" type="int32" mode="rw">27907</MDATTR>
+                <MDATTR name="STATE_VECTOR_TIME" desc="Time of orbit state vector" unit="utc" type="utc" mode="rw">21-APR-2011 05:03:00.000000</MDATTR>
+                <MDATTR name="VECTOR_SOURCE" desc="State vector source" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="incidence_near" desc="" unit="deg" type="float64" mode="rw">22.6816961841416</MDATTR>
+                <MDATTR name="incidence_far" desc="" unit="deg" type="float64" mode="rw">28.031240765642924</MDATTR>
+                <MDATTR name="slice_num" desc="Slice number" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="data_take_id" desc="Data take identifier" unit="" type="int32" mode="rw">99999</MDATTR>
+                <MDATTR name="first_line_time" desc="First zero doppler azimuth time" unit="utc" type="utc" mode="rw">21-APR-2011 05:15:14.356000</MDATTR>
+                <MDATTR name="last_line_time" desc="Last zero doppler azimuth time" unit="utc" type="utc" mode="rw">21-APR-2011 05:15:23.904000</MDATTR>
+                <MDATTR name="first_near_lat" desc="" unit="deg" type="float64" mode="rw">60.183714038839774</MDATTR>
+                <MDATTR name="first_near_long" desc="" unit="deg" type="float64" mode="rw">-112.02375382232997</MDATTR>
+                <MDATTR name="first_far_lat" desc="" unit="deg" type="float64" mode="rw">60.183714038839774</MDATTR>
+                <MDATTR name="first_far_long" desc="" unit="deg" type="float64" mode="rw">-111.2235794830005</MDATTR>
+                <MDATTR name="last_near_lat" desc="" unit="deg" type="float64" mode="rw">59.552647551745814</MDATTR>
+                <MDATTR name="last_near_long" desc="" unit="deg" type="float64" mode="rw">-112.02375382232997</MDATTR>
+                <MDATTR name="last_far_lat" desc="" unit="deg" type="float64" mode="rw">59.552647551745814</MDATTR>
+                <MDATTR name="last_far_long" desc="" unit="deg" type="float64" mode="rw">-111.2235794830005</MDATTR>
+                <MDATTR name="PASS" desc="ASCENDING or DESCENDING" unit="" type="ascii" mode="rw">ASCENDING</MDATTR>
+                <MDATTR name="SAMPLE_TYPE" desc="DETECTED or COMPLEX" unit="" type="ascii" mode="rw">DETECTED</MDATTR>
+                <MDATTR name="mds1_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">HH</MDATTR>
+                <MDATTR name="mds2_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">HV</MDATTR>
+                <MDATTR name="mds3_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">VH</MDATTR>
+                <MDATTR name="mds4_tx_rx_polar" desc="Polarization" unit="" type="ascii" mode="rw">VV</MDATTR>
+                <MDATTR name="polsar_data" desc="Polarimetric Matrix" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="azimuth_looks" desc="" unit="" type="float64" mode="rw">4.0</MDATTR>
+                <MDATTR name="range_looks" desc="" unit="" type="float64" mode="rw">1.0</MDATTR>
+                <MDATTR name="range_spacing" desc="Range sample spacing" unit="m" type="float64" mode="rw">12.5</MDATTR>
+                <MDATTR name="azimuth_spacing" desc="Azimuth sample spacing" unit="m" type="float64" mode="rw">12.5</MDATTR>
+                <MDATTR name="range_window_type" desc="Range window type" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="range_window_coefficient" desc="Range window coefficient" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="pulse_repetition_frequency" desc="PRF" unit="Hz" type="float64" mode="rw">3861.0038610039</MDATTR>
+                <MDATTR name="radar_frequency" desc="Radar frequency" unit="MHz" type="float64" mode="rw">1269.9997500604727</MDATTR>
+                <MDATTR name="line_time_interval" desc="" unit="s" type="float64" mode="rw">0.0018365070278265313</MDATTR>
+                <MDATTR name="total_size" desc="Total product size" unit="MB" type="uint32" mode="rw">764</MDATTR>
+                <MDATTR name="num_output_lines" desc="Raster height" unit="lines" type="uint32" mode="rw">5621</MDATTR>
+                <MDATTR name="num_samples_per_line" desc="Raster width" unit="samples" type="uint32" mode="rw">7127</MDATTR>
+                <MDATTR name="subset_offset_x" desc="X coordinate of UL corner of subset in original image" unit="samples" type="uint32" mode="rw">0</MDATTR>
+                <MDATTR name="subset_offset_y" desc="Y coordinate of UL corner of subset in original image" unit="samples" type="uint32" mode="rw">0</MDATTR>
+                <MDATTR name="srgr_flag" desc="SRGR applied" unit="flag" type="uint8" mode="rw">1</MDATTR>
+                <MDATTR name="avg_scene_height" desc="Average scene height ellipsoid" unit="m" type="float64" mode="rw">0.0</MDATTR>
+                <MDATTR name="map_projection" desc="Map projection applied" unit="" type="ascii" mode="rw">WGS84(DD)</MDATTR>
+                <MDATTR name="is_terrain_corrected" desc="orthorectification applied" unit="flag" type="uint8" mode="rw">1</MDATTR>
+                <MDATTR name="DEM" desc="Digital Elevation Model used" unit="" type="ascii" mode="rw">SRTM 3Sec</MDATTR>
+                <MDATTR name="geo_ref_system" desc="geographic reference system" unit="" type="ascii" mode="rw">WGS84</MDATTR>
+                <MDATTR name="lat_pixel_res" desc="pixel resolution in geocoded image" unit="deg" type="float64" mode="rw">1.1228941051494019E-4</MDATTR>
+                <MDATTR name="lon_pixel_res" desc="pixel resolution in geocoded image" unit="deg" type="float64" mode="rw">1.1228941051494019E-4</MDATTR>
+                <MDATTR name="slant_range_to_first_pixel" desc="Slant range to 1st data sample" unit="m" type="float64" mode="rw">756426.0</MDATTR>
+                <MDATTR name="ant_elev_corr_flag" desc="Antenna elevation applied" unit="flag" type="uint8" mode="rw">1</MDATTR>
+                <MDATTR name="range_spread_comp_flag" desc="range spread compensation applied" unit="flag" type="uint8" mode="rw">1</MDATTR>
+                <MDATTR name="replica_power_corr_flag" desc="Replica pulse power correction applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="abs_calibration_flag" desc="Product calibrated" unit="flag" type="uint8" mode="rw">1</MDATTR>
+                <MDATTR name="calibration_factor" desc="Calibration constant" unit="dB" type="float64" mode="rw">-83.0</MDATTR>
+                <MDATTR name="chirp_power" desc="Chirp power" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="inc_angle_comp_flag" desc="incidence angle compensation applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="ref_inc_angle" desc="Reference incidence angle" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="ref_slant_range" desc="Reference slant range" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="ref_slant_range_exp" desc="Reference slant range exponent" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="rescaling_factor" desc="Rescaling factor" unit="" type="float64" mode="rw">99999.0</MDATTR>
+                <MDATTR name="bistatic_correction_applied" desc="" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="range_sampling_rate" desc="Range Sampling Rate" unit="MHz" type="float64" mode="rw">16.0</MDATTR>
+                <MDATTR name="range_bandwidth" desc="Bandwidth total in range" unit="MHz" type="float64" mode="rw">14.0</MDATTR>
+                <MDATTR name="azimuth_bandwidth" desc="Bandwidth total in azimuth" unit="Hz" type="float64" mode="rw">1525.2006836</MDATTR>
+                <MDATTR name="multilook_flag" desc="Multilook applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="coregistered_stack" desc="Coregistration applied" unit="flag" type="uint8" mode="rw">0</MDATTR>
+                <MDATTR name="external_calibration_file" desc="External calibration file used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="orbit_state_vector_file" desc="Orbit file used" unit="" type="ascii" mode="rw">-</MDATTR>
+                <MDATTR name="metadata_version" desc="AbsMetadata version" unit="" type="ascii" mode="rw">7.0</MDATTR>
+                <MDElem name="Orbit_State_Vectors">
+                    <MDElem name="orbit_vector1">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:03:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1383838.068249481</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-6695426.280885466</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">1813911.579949868</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-1174.383663655654</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">2198.105944101508</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">7177.440354414937</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector2">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:04:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1450842.829857398</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-6549813.529027738</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">2240576.869218672</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-1057.691361569937</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">2653.85101802785</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">7039.912412685825</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector3">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:05:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1510596.826272099</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-6377199.515449099</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">2658128.225348832</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-932.7906851454621</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">3097.830205130847</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">6873.746460100197</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector4">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:06:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1562625.900320682</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-6178346.820923338</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">3064867.253677221</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-800.3011796906485</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">3528.165823543657</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">6679.625035848663</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector5">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:07:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1606494.479895399</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-5954128.818440154</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">3459140.014098341</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-660.8889073342514</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">3943.043896297322</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">6458.346758888284</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector6">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:08:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1641808.268050343</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-5705525.601134777</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">3839343.862369817</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-515.2630681709518</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">4340.722383409212</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">6210.82211750444</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector7">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:09:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1668216.7243662</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-5433619.44089115</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">4203934.020145483</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-364.1723900497726</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">4719.538453664085</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">5938.068671192534</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector8">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:10:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1685415.324538003</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-5139589.848842771</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">4551429.860320914</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-208.4013960649159</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">5077.914663772003</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">5641.206549211476</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector9">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:11:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1693147.594135048</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-4824708.255512706</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">4880420.933516541</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">-48.76654897532143</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">5414.365631288675</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">5321.454064994032</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector10">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:12:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1691206.898478558</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-4490332.286892818</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">5189572.70537286</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">113.8880297497295</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">5727.504605402842</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">4980.122517314443</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector11">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:13:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1679437.968144355</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-4137899.653363157</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">5477631.966184191</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">278.695043810173</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">6016.049947242496</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">4618.610297291676</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector12">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:14:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1657738.149163973</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-3768921.670264423</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">5743431.838205395</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">444.768765962181</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">6278.830440750135</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">4238.39551180185</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector13">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:15:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1626058.360482788</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-3384976.525183751</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">5985896.350554751</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">611.2099473859547</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">6514.788824040764</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">3841.029214822535</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector14">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:16:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1584403.768131482</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-2987702.336372512</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6204044.619470804</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">777.1103470359541</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">6722.985175018704</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">3428.128801251531</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector15">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:17:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1532834.188885612</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-2578790.029297551</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6396994.629586639</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">941.5572541720713</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">6902.599567396287</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">3001.371439363786</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector16">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:18:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1471464.228867757</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-2159976.062867912</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6563966.6393303</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">1103.637786208765</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7052.934648805355</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">2562.488113360746</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector17">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:19:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1400463.159877259</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-1733034.979058163</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6704286.220172273</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">1262.443410409716</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7173.418843588461</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">2113.25703161325</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector18">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:20:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1320054.522163356</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-1299771.781187088</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6817386.856398501</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">1417.074424950054</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7263.608575352985</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">1655.495742289604</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector19">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:21:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1230515.467314847</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-862014.2261085799</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6902812.07218509</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">1566.644216830059</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7323.189010149532</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">1191.053488552578</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector20">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:22:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1132175.834941903</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">-421605.0989714412</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6960217.125947313</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">1710.283946744685</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7351.97400819803</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">721.8044659182706</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector21">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:23:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-1025416.942907899</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">19605.51327950889</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6989370.324489804</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">1847.14726048969</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7349.90647610374</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">249.6416845234776</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector22">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:24:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-910670.1047012174</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">459767.9911974699</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6990153.939852498</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">1976.414737294158</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7317.059099324969</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">-223.5303664204365</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector23">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:25:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-788414.8794303495</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">897040.9513577813</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6962564.662189357</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">2097.298341563746</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7253.633498318859</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">-695.8034261138085</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector24">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:26:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-659177.0585056524</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">1329598.946936133</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6906713.614804964</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">2209.045731326221</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7159.959095409004</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">-1165.272547961314</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector25">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:27:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-523526.4032442744</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">1755640.092543989</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6822825.932031324</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">2310.944217203337</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">7036.491517631714</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">-1630.043490672089</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector26">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:28:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-382074.1492150642</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">2173393.578873156</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6711239.906273657</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">2402.324679371545</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">6883.810659126338</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">-2088.239790478337</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector27">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:29:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-235470.2778709084</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">2581127.051122002</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6572405.698926568</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">2482.565273500393</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">6702.617900446142</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">-2538.010088700185</MDATTR>
+                    </MDElem>
+                    <MDElem name="orbit_vector28">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:30:00.000000</MDATTR>
+                        <MDATTR name="x_pos" type="float64" mode="rw">-84400.57933210272</MDATTR>
+                        <MDATTR name="y_pos" type="float64" mode="rw">2977153.810189174</MDATTR>
+                        <MDATTR name="z_pos" type="float64" mode="rw">6406883.638203774</MDATTR>
+                        <MDATTR name="x_vel" type="float64" mode="rw">2551.094790601111</MDATTR>
+                        <MDATTR name="y_vel" type="float64" mode="rw">6493.733349951914</MDATTR>
+                        <MDATTR name="z_vel" type="float64" mode="rw">-2977.534609685335</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="SRGR_Coefficients">
+                    <MDElem name="srgr_coef_list.1">
+                        <MDATTR name="zero_doppler_time" type="utc" mode="rw">21-APR-2011 05:15:14.356000</MDATTR>
+                        <MDATTR name="ground_range_origin" type="float64" mode="rw">0.0</MDATTR>
+                        <MDElem name="coefficient.1">
+                            <MDATTR name="srgr_coef" type="float64" mode="rw">756426.0</MDATTR>
+                        </MDElem>
+                        <MDElem name="coefficient.2">
+                            <MDATTR name="srgr_coef" type="float64" mode="rw">0.38760626316070557</MDATTR>
+                        </MDElem>
+                        <MDElem name="coefficient.3">
+                            <MDATTR name="srgr_coef" type="float64" mode="rw">6.34237153462891E-7</MDATTR>
+                        </MDElem>
+                        <MDElem name="coefficient.4">
+                            <MDATTR name="srgr_coef" type="float64" mode="rw">-3.3175651353682667E-13</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Doppler_Centroid_Coefficients">
+                    <MDElem name="dop_coef_list">
+                        <MDATTR name="zero_doppler_time" type="utc" mode="rw">21-APR-2011 05:15:14.356000</MDATTR>
+                        <MDATTR name="slant_range_time" desc="Slant Range Time" unit="ns" type="float64" mode="rw">0.0</MDATTR>
+                        <MDElem name="coefficient.1">
+                            <MDATTR name="dop_coef" desc="Cross track Doppler frequency centroid constant term" unit="" type="float64" mode="rw">53.7851413</MDATTR>
+                        </MDElem>
+                        <MDElem name="coefficient.2">
+                            <MDATTR name="dop_coef" desc="Cross track Doppler frequency centroid linear term" unit="" type="float64" mode="rw">-5.689E-4</MDATTR>
+                        </MDElem>
+                        <MDElem name="coefficient.3">
+                            <MDATTR name="dop_coef" desc="Cross track Doppler frequency centroid quadratic term" unit="" type="float64" mode="rw">0.0</MDATTR>
+                        </MDElem>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Look_Direction_List">
+                    <MDElem name="look_direction1">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:15:14.355999</MDATTR>
+                        <MDATTR name="head_lat" type="float64" mode="rw">60.18369868234396</MDATTR>
+                        <MDATTR name="head_lon" type="float64" mode="rw">-111.50033858640512</MDATTR>
+                        <MDATTR name="tail_lat" type="float64" mode="rw">60.11794915710321</MDATTR>
+                        <MDATTR name="tail_lon" type="float64" mode="rw">-112.02383420602015</MDATTR>
+                    </MDElem>
+                    <MDElem name="look_direction2">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:15:16.743459</MDATTR>
+                        <MDATTR name="head_lat" type="float64" mode="rw">60.042018136537074</MDATTR>
+                        <MDATTR name="head_lon" type="float64" mode="rw">-111.43110729912307</MDATTR>
+                        <MDATTR name="tail_lat" type="float64" mode="rw">59.976547923430104</MDATTR>
+                        <MDATTR name="tail_lon" type="float64" mode="rw">-111.9525337361015</MDATTR>
+                    </MDElem>
+                    <MDElem name="look_direction3">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:15:19.130918</MDATTR>
+                        <MDATTR name="head_lat" type="float64" mode="rw">59.900337601477595</MDATTR>
+                        <MDATTR name="head_lon" type="float64" mode="rw">-111.36187029030897</MDATTR>
+                        <MDATTR name="tail_lat" type="float64" mode="rw">59.83514668975701</MDATTR>
+                        <MDATTR name="tail_lon" type="float64" mode="rw">-111.88123604596527</MDATTR>
+                    </MDElem>
+                    <MDElem name="look_direction4">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:15:21.518377</MDATTR>
+                        <MDATTR name="head_lat" type="float64" mode="rw">59.75865705030629</MDATTR>
+                        <MDATTR name="head_lon" type="float64" mode="rw">-111.29263435792448</MDATTR>
+                        <MDATTR name="tail_lat" type="float64" mode="rw">59.69374546144215</MDATTR>
+                        <MDATTR name="tail_lon" type="float64" mode="rw">-111.8099362651729</MDATTR>
+                    </MDElem>
+                    <MDElem name="look_direction5">
+                        <MDATTR name="time" type="utc" mode="rw">21-APR-2011 05:15:23.905836</MDATTR>
+                        <MDATTR name="head_lat" type="float64" mode="rw">59.616976520574084</MDATTR>
+                        <MDATTR name="head_lon" type="float64" mode="rw">-111.22340227347708</MDATTR>
+                        <MDATTR name="tail_lat" type="float64" mode="rw">59.552344229563374</MDATTR>
+                        <MDATTR name="tail_lon" type="float64" mode="rw">-111.73863680185899</MDATTR>
+                    </MDElem>
+                </MDElem>
+            </MDElem>
+            <MDElem name="Original_Product_Metadata">
+                <MDElem name="Leader">
+                    <MDElem name="File Descriptor">
+                        <MDATTR name="Record code and location type flag" type="ascii" mode="rw">FTYP</MDATTR>
+                        <MDATTR name="Number of attitude data records" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Det. processing record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record code field length" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Number of radar par. update records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Sequence Number Location" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Calibration record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Radar par. update record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="File Number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Number of DEM descriptor records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="Number of radiometric data records" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Specification revision number" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record format revision number" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record length field length" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Number of calibration records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Data quality summary record length" type="int32" mode="rw">1620</MDATTR>
+                        <MDATTR name="Number of facility data records" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Record Sequence and Location Type Flag" type="ascii" mode="rw">FSEQ</MDATTR>
+                        <MDATTR name="Number of data histograms records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Facility data record maximum length" type="int32" mode="rw">15400</MDATTR>
+                        <MDATTR name="Number of GCP records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of data set summary records" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Number of range spectra records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record length and location type flag" type="ascii" mode="rw">FLGT</MDATTR>
+                        <MDATTR name="Number of det. processing records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="DEM descriptor record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of data quality summary records" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Range spectra record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Data set summary record length" type="int32" mode="rw">4096</MDATTR>
+                        <MDATTR name="Radiometric compensation rec. length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of rad. compensation records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="File Name" type="ascii" mode="rw">AL1 PSRCSARL</MDATTR>
+                        <MDATTR name="Data histogram record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of platform pos. data records" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Record length location" type="int32" mode="rw">9</MDATTR>
+                        <MDATTR name="Radiometric record length" type="int32" mode="rw">9860</MDATTR>
+                        <MDATTR name="Map projection record length" type="int32" mode="rw">1620</MDATTR>
+                        <MDATTR name="Specification number" type="ascii" mode="rw">CEOS-SAR-CCT</MDATTR>
+                        <MDATTR name="Software version number" type="ascii" mode="rw">1.00</MDATTR>
+                        <MDATTR name="Attitude data record length" type="int32" mode="rw">8192</MDATTR>
+                        <MDATTR name="Platform position record length" type="int32" mode="rw">4680</MDATTR>
+                        <MDATTR name="Sequence number field length" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Number of map projection data records" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="GCP record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record code location" type="int32" mode="rw">5</MDATTR>
+                        <MDATTR name="Annotation data record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of annotation data records" type="int32" mode="rw">0</MDATTR>
+                    </MDElem>
+                    <MDElem name="Scene Parameters">
+                        <MDATTR name="Satellite clock time" type="ascii" mode="rw">20110421040727184000</MDATTR>
+                        <MDATTR name="Ellipsoid J2 parameter" type="float64" mode="rw">0.1082629</MDATTR>
+                        <MDATTR name="Motion compensation indicator" type="ascii" mode="rw">00</MDATTR>
+                        <MDATTR name="Faraday correction applied flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Constant radiometric Bias" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Radar frequency" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Radar wavelength" type="float64" mode="rw">0.2360571</MDATTR>
+                        <MDATTR name="Cross track Doppler frequency centroid constant term" type="float64" mode="rw">53.7851413</MDATTR>
+                        <MDATTR name="Channel imbalance correction applied flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) amplitude coefficient quartic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Scene centre line number" type="int32" mode="rw">2600</MDATTR>
+                        <MDATTR name="scene centre true heading as calculated relative to North" type="float64" mode="rw">-14.0169644</MDATTR>
+                        <MDATTR name="Along track Doppler frequency centroid linear term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Incidence angle linear term" type="float64" mode="rw">0.077243495426319</MDATTR>
+                        <MDATTR name="Stop line of calibration at upper image" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Sensor platform longitude at nadir" type="float64" mode="rw">-116.335</MDATTR>
+                        <MDATTR name="Sensor clock angle" type="float64" mode="rw">90.0</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) amplitude coefficient constant term" type="float64" mode="rw">1.27E9</MDATTR>
+                        <MDATTR name="Ellipsoid designator" type="ascii" mode="rw">GRS80</MDATTR>
+                        <MDATTR name="Processing facility identifier" type="ascii" mode="rw">EOC-ALOS-DPS</MDATTR>
+                        <MDATTR name="Along track Doppler frequency centroid quadratic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Data Set Summary Record sequence number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Sensor ID and mode of operation for this channel" type="ascii" mode="rw">ALOS  -L -H 62-</MDATTR>
+                        <MDATTR name="Bandwidth per look in range" type="float64" mode="rw">1.4E7</MDATTR>
+                        <MDATTR name="First Record Subtype" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="Ellipsoid J3 parameter" type="float64" mode="rw">-2.54E-5</MDATTR>
+                        <MDATTR name="Satellite encoded binary time code" type="int32" mode="rw">987394062</MDATTR>
+                        <MDATTR name="Antenna electrical boresight angle" type="float64" mode="rw">47.6</MDATTR>
+                        <MDATTR name="Quantizer descriptor" type="ascii" mode="rw">UNIFORM I,Q</MDATTR>
+                        <MDATTR name="Yew steering mode flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Time direction indicator along line direction" type="ascii" mode="rw">ASCEND</MDATTR>
+                        <MDATTR name="PRF switching indicator" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) amplitude coefficient quadratic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Reciever gain for like polarized" type="float64" mode="rw">24.0</MDATTR>
+                        <MDATTR name="Image range to slant cubic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Sensor platform geodetic latitude at nadir" type="float64" mode="rw">59.181</MDATTR>
+                        <MDATTR name="Reciever gain for cross polarized" type="float64" mode="rw">24.0</MDATTR>
+                        <MDATTR name="Total processor bandwidth in azimuth" type="float64" mode="rw">1525.2006836</MDATTR>
+                        <MDATTR name="Image range to slant constant term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Direction of beam center in scene center" type="float64" mode="rw">-103.7735606</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) phase coefficient quadratic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="RFI %power rejected" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Line locator of PRF switching" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) phase coefficient linear term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Record Type Code" type="int32" mode="rw">10</MDATTR>
+                        <MDATTR name="Along track Doppler frequency rate quadratic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Line spacing" type="float64" mode="rw">12.5</MDATTR>
+                        <MDATTR name="Processed scene width" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) phase coefficient constant term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Pulse Repetition Frequency" type="float64" mode="rw">3861003.8610039</MDATTR>
+                        <MDATTR name="Product type descriptor" type="ascii" mode="rw">STANDARD GEOCODED IMAGE</MDATTR>
+                        <MDATTR name="Image range to slant linear term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Incidence angle cubic term" type="float64" mode="rw">-5.9418596812549E-8</MDATTR>
+                        <MDATTR name="Range compressed flag" type="ascii" mode="rw">YES</MDATTR>
+                        <MDATTR name="Cross track Doppler frequency rate quadratic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Weighting function designator in azimuth" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="Cross track Doppler frequency centroid linear term" type="float64" mode="rw">-5.689E-4</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">4096</MDATTR>
+                        <MDATTR name="scene centre geodetic latitude" type="float64" mode="rw">59.868053</MDATTR>
+                        <MDATTR name="Processor range compression designator" type="ascii" mode="rw">EXTRACTED CHIRP</MDATTR>
+                        <MDATTR name="Satellite clock step length" type="int32" mode="rw">999999170</MDATTR>
+                        <MDATTR name="Processed scene length" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Line content indicator" type="ascii" mode="rw">OTHER</MDATTR>
+                        <MDATTR name="Pixel spacing" type="float64" mode="rw">12.5</MDATTR>
+                        <MDATTR name="Incidence angle fifth term" type="float64" mode="rw">4.8801950183884E-14</MDATTR>
+                        <MDATTR name="Scene centre pixel number" type="int32" mode="rw">1200</MDATTR>
+                        <MDATTR name="Start line of calibration at bottom image" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="scene centre geodetic longitude" type="float64" mode="rw">-111.6203617</MDATTR>
+                        <MDATTR name="Range pulse code specifier" type="ascii" mode="rw">LINEAR FM CHIRP</MDATTR>
+                        <MDATTR name="Along track Doppler frequency rate linear term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Echo tracker flag" type="ascii" mode="rw">OFF</MDATTR>
+                        <MDATTR name="Incidence angle fourth term" type="float64" mode="rw">-2.6923836650622E-11</MDATTR>
+                        <MDATTR name="Ellipsoid semiminor axis" type="float64" mode="rw">6356.7523141</MDATTR>
+                        <MDATTR name="Number of SAR channels" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Parameter table number of auto setting" type="int32" mode="rw">127</MDATTR>
+                        <MDATTR name="Nominal offnadir angle" type="float64" mode="rw">21.5</MDATTR>
+                        <MDATTR name="Weighting function designator in range" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="Second Record Subtype" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) amplitude coefficient cubic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="SAR channel indicator" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Gain imbalance for I Q" type="float64" mode="rw">1.0</MDATTR>
+                        <MDATTR name="Stop line of calibration at bottom image" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Processing system identifier" type="ascii" mode="rw">ALOS-DPS</MDATTR>
+                        <MDATTR name="Along track Doppler frequency centroid constant term" type="float64" mode="rw">53.7851413</MDATTR>
+                        <MDATTR name="Clutterlock applied flag" type="ascii" mode="rw">YES</MDATTR>
+                        <MDATTR name="Record Number" type="int32" mode="rw">2</MDATTR>
+                        <MDATTR name="Start line of calibration at upper image" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Down linked data chirp extraction index" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Nominal resolution in range" type="float64" mode="rw">12.5</MDATTR>
+                        <MDATTR name="Processing version identifier" type="ascii" mode="rw">1.00</MDATTR>
+                        <MDATTR name="Along track Doppler frequency rate constant term" type="float64" mode="rw">-577.380249</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) phase coefficient cubic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) phase coefficient quartic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Antenna beam number" type="int32" mode="rw">3</MDATTR>
+                        <MDATTR name="Effective two-way antenna azimuth 3dB beam width at electrical boresight" type="float64" mode="rw">1.3</MDATTR>
+                        <MDATTR name="Crosstalk correction applied flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Ellipsoid J4 parameter" type="float64" mode="rw">-1.62E-5</MDATTR>
+                        <MDATTR name="Scene centre time" type="ascii" mode="rw">20110421051519130</MDATTR>
+                        <MDATTR name="Sensor platform heading at nadir" type="float64" mode="rw">-15.924</MDATTR>
+                        <MDATTR name="Effective two-way antenna elevation 3dB beam width at boresight" type="float64" mode="rw">5.2</MDATTR>
+                        <MDATTR name="Cross track Doppler frequency rate linear term" type="float64" mode="rw">0.0038588</MDATTR>
+                        <MDATTR name="gravitational constant" type="float64" mode="rw">3.986005</MDATTR>
+                        <MDATTR name="Antenna mechanical boresight angle" type="float64" mode="rw">47.6</MDATTR>
+                        <MDATTR name="Cross track Doppler frequency rate constant term" type="float64" mode="rw">-577.380249</MDATTR>
+                        <MDATTR name="Range sampling rate" type="float64" mode="rw">16.0</MDATTR>
+                        <MDATTR name="DC Bias for Q-component" type="float64" mode="rw">15.5</MDATTR>
+                        <MDATTR name="DC Bias for I-component" type="float64" mode="rw">15.5</MDATTR>
+                        <MDATTR name="Quantization per channel I Q" type="int32" mode="rw">5</MDATTR>
+                        <MDATTR name="Faraday rotation angle" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Sensor platform mission identifier" type="ascii" mode="rw">ALOS</MDATTR>
+                        <MDATTR name="Product level code" type="ascii" mode="rw">1.5</MDATTR>
+                        <MDATTR name="scene identifier" type="ascii" mode="rw">ALPSRP279071200</MDATTR>
+                        <MDATTR name="Ellipsoid semimajor axis" type="float64" mode="rw">6378.137</MDATTR>
+                        <MDATTR name="Nominal number of looks processed in range" type="float64" mode="rw">1.0</MDATTR>
+                        <MDATTR name="Nominal number of looks processed in azimuth" type="float64" mode="rw">4.0</MDATTR>
+                        <MDATTR name="Range pulse length" type="float64" mode="rw">16.0</MDATTR>
+                        <MDATTR name="Bandwidth per look in azimuth" type="float64" mode="rw">1525.2006836</MDATTR>
+                        <MDATTR name="Data input source" type="ascii" mode="rw">ONLINE</MDATTR>
+                        <MDATTR name="Nominal resolution in azimuth" type="float64" mode="rw">12.5</MDATTR>
+                        <MDATTR name="Linear radiometric Gain" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Nominal range pulse (chirp) amplitude coefficient linear term" type="float64" mode="rw">5.1851852E11</MDATTR>
+                        <MDATTR name="Incidence angle constant term" type="float64" mode="rw">-33.710982306841</MDATTR>
+                        <MDATTR name="Calibration data indicator" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Earth mass" type="float64" mode="rw">5.974</MDATTR>
+                        <MDATTR name="Cross track Doppler frequency centroid quadratic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Autofocussing applied flag" type="ascii" mode="rw">NOT</MDATTR>
+                        <MDATTR name="Faraday rotation method flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Third Record Subtype" type="int32" mode="rw">20</MDATTR>
+                        <MDATTR name="Total processor bandwidth in range" type="float64" mode="rw">14000.0</MDATTR>
+                        <MDATTR name="Doppler center frequency linear term" type="float64" mode="rw">-0.1126199</MDATTR>
+                        <MDATTR name="Channel symmetrisation applied flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Doppler center frequency constant term" type="float64" mode="rw">138.9737854</MDATTR>
+                        <MDATTR name="Image range to slant quadratic term" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Incidence angle quadratic term" type="float64" mode="rw">-3.2788297061651E-6</MDATTR>
+                        <MDATTR name="Orbit number" type="ascii" mode="rw">27907</MDATTR>
+                        <MDATTR name="Incidence angle at scene centre" type="float64" mode="rw">23.866</MDATTR>
+                    </MDElem>
+                    <MDElem name="Map Projection">
+                        <MDATTR name="Semiminor axis of ref.ellipsoid" type="float64" mode="rw">6356752.3141</MDATTR>
+                        <MDATTR name="Last line 1st pixel geodetic latitude" type="float64" mode="rw">59.5523021</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">1620</MDATTR>
+                        <MDATTR name="Last line 1st pixel geodetic longitude" type="float64" mode="rw">-111.738499</MDATTR>
+                        <MDATTR name="Platform heading at nadir corresponding to scene centre" type="float64" mode="rw">-17.8507108</MDATTR>
+                        <MDATTR name="Number of pixels per line of image" type="int32" mode="rw">2400</MDATTR>
+                        <MDATTR name="Last line last valid pixel geodetic longitude" type="float64" mode="rw">-111.2230542</MDATTR>
+                        <MDATTR name="Name of reference ellipsoid" type="ascii" mode="rw">GRS80</MDATTR>
+                        <MDATTR name="Actual ascending node" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Map projection descriptor" type="ascii" mode="rw">GEOCODED</MDATTR>
+                        <MDATTR name="Nominal inter-line distance in output scene" type="float64" mode="rw">12.5</MDATTR>
+                        <MDATTR name="Last line last valid pixel geodetic latitude" type="float64" mode="rw">59.6169624</MDATTR>
+                        <MDATTR name="Geocentre to platform distance at input scene centre" type="float64" mode="rw">6362175.1083665</MDATTR>
+                        <MDATTR name="Number of lines" type="int32" mode="rw">5200</MDATTR>
+                        <MDATTR name="Orientation at output scene centre" type="float64" mode="rw">-0.5378905</MDATTR>
+                        <MDATTR name="Platform geodetic altitude over the ellipsoid" type="float64" mode="rw">703790.8099329</MDATTR>
+                        <MDATTR name="1st line last valid pixel geodetic longitude" type="float64" mode="rw">-111.4999821</MDATTR>
+                        <MDATTR name="Nominal inter-pixel distance in output scene" type="float64" mode="rw">12.5</MDATTR>
+                        <MDATTR name="1st line last valid pixel geodetic latitude" type="float64" mode="rw">60.1836843</MDATTR>
+                        <MDATTR name="1st line 1st pixel geodetic latitude" type="float64" mode="rw">60.1179081</MDATTR>
+                        <MDATTR name="Line to Pixel coefficients 5" type="float64" mode="rw">60.117989455</MDATTR>
+                        <MDATTR name="Line to Pixel coefficients 6" type="float64" mode="rw">-1.087912126E-4</MDATTR>
+                        <MDATTR name="Line to Pixel coefficients 3" type="float64" mode="rw">2.1830468673E-4</MDATTR>
+                        <MDATTR name="Semimajor axis of ref.ellipsoid" type="float64" mode="rw">6378137.0</MDATTR>
+                        <MDATTR name="Line to Pixel coefficients 4" type="float64" mode="rw">-6.6279221935E-10</MDATTR>
+                        <MDATTR name="Line to Pixel coefficients 1" type="float64" mode="rw">-112.02396666</MDATTR>
+                        <MDATTR name="Line to Pixel coefficients 2" type="float64" mode="rw">5.4856315874E-5</MDATTR>
+                        <MDATTR name="Nominal platform orbital inclination" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Ground speed at nadir at input scene centre time" type="float64" mode="rw">6831.2201067</MDATTR>
+                        <MDATTR name="1st line 1st pixel geodetic longitude" type="float64" mode="rw">-112.0236935</MDATTR>
+                        <MDATTR name="Line to Pixel coefficients 7" type="float64" mode="rw">2.7418276209E-5</MDATTR>
+                        <MDATTR name="Line to Pixel coefficients 8" type="float64" mode="rw">-8.9475990755E-11</MDATTR>
+                    </MDElem>
+                    <MDElem name="Platform Position">
+                        <MDATTR name="Velocity vector Z' 7" type="float64" mode="rw">5938.068671192534</MDATTR>
+                        <MDATTR name="Velocity vector Z' 8" type="float64" mode="rw">5641.206549211476</MDATTR>
+                        <MDATTR name="Velocity vector Z' 5" type="float64" mode="rw">6458.346758888284</MDATTR>
+                        <MDATTR name="Velocity vector Z' 6" type="float64" mode="rw">6210.82211750444</MDATTR>
+                        <MDATTR name="Velocity vector Z' 3" type="float64" mode="rw">6873.746460100197</MDATTR>
+                        <MDATTR name="Velocity vector Z' 4" type="float64" mode="rw">6679.625035848663</MDATTR>
+                        <MDATTR name="Velocity vector Z' 1" type="float64" mode="rw">7177.440354414937</MDATTR>
+                        <MDATTR name="Velocity vector Y' 19" type="float64" mode="rw">7323.189010149532</MDATTR>
+                        <MDATTR name="Velocity vector Z' 2" type="float64" mode="rw">7039.912412685825</MDATTR>
+                        <MDATTR name="Velocity vector Y' 20" type="float64" mode="rw">7351.97400819803</MDATTR>
+                        <MDATTR name="Velocity vector Y' 21" type="float64" mode="rw">7349.90647610374</MDATTR>
+                        <MDATTR name="Velocity vector Y' 28" type="float64" mode="rw">6493.733349951914</MDATTR>
+                        <MDATTR name="6th orbital element z'" type="float64" mode="rw">3711.8796191</MDATTR>
+                        <MDATTR name="Velocity vector Y' 26" type="float64" mode="rw">6883.810659126338</MDATTR>
+                        <MDATTR name="Velocity vector Y' 27" type="float64" mode="rw">6702.617900446142</MDATTR>
+                        <MDATTR name="Velocity vector Y' 24" type="float64" mode="rw">7159.959095409004</MDATTR>
+                        <MDATTR name="Velocity vector Y' 25" type="float64" mode="rw">7036.491517631714</MDATTR>
+                        <MDATTR name="Velocity vector Y' 22" type="float64" mode="rw">7317.059099324969</MDATTR>
+                        <MDATTR name="Velocity vector Y' 23" type="float64" mode="rw">7253.633498318859</MDATTR>
+                        <MDATTR name="Number of data points" type="int32" mode="rw">28</MDATTR>
+                        <MDATTR name="Time interval between DATA points" type="float64" mode="rw">60.0</MDATTR>
+                        <MDATTR name="5th orbital element y'" type="float64" mode="rw">6583.7627185</MDATTR>
+                        <MDATTR name="Velocity vector Y' 8" type="float64" mode="rw">5077.914663772003</MDATTR>
+                        <MDATTR name="Velocity vector Y' 9" type="float64" mode="rw">5414.365631288675</MDATTR>
+                        <MDATTR name="Velocity vector Y' 6" type="float64" mode="rw">4340.722383409212</MDATTR>
+                        <MDATTR name="Velocity vector Y' 7" type="float64" mode="rw">4719.538453664085</MDATTR>
+                        <MDATTR name="Velocity vector Y' 4" type="float64" mode="rw">3528.165823543657</MDATTR>
+                        <MDATTR name="Velocity vector Y' 5" type="float64" mode="rw">3943.043896297322</MDATTR>
+                        <MDATTR name="Velocity vector Y' 2" type="float64" mode="rw">2653.85101802785</MDATTR>
+                        <MDATTR name="Velocity vector Y' 3" type="float64" mode="rw">3097.830205130847</MDATTR>
+                        <MDATTR name="Velocity vector Y' 1" type="float64" mode="rw">2198.105944101508</MDATTR>
+                        <MDATTR name="Velocity vector Y' 10" type="float64" mode="rw">5727.504605402842</MDATTR>
+                        <MDATTR name="Record Type Code" type="int32" mode="rw">30</MDATTR>
+                        <MDATTR name="Velocity vector Y' 17" type="float64" mode="rw">7173.418843588461</MDATTR>
+                        <MDATTR name="Velocity vector Y' 18" type="float64" mode="rw">7263.608575352985</MDATTR>
+                        <MDATTR name="Velocity vector Y' 15" type="float64" mode="rw">6902.599567396287</MDATTR>
+                        <MDATTR name="Velocity vector Y' 16" type="float64" mode="rw">7052.934648805355</MDATTR>
+                        <MDATTR name="Velocity vector Y' 13" type="float64" mode="rw">6514.788824040764</MDATTR>
+                        <MDATTR name="Velocity vector Y' 14" type="float64" mode="rw">6722.985175018704</MDATTR>
+                        <MDATTR name="Velocity vector Y' 11" type="float64" mode="rw">6016.049947242496</MDATTR>
+                        <MDATTR name="Velocity vector Y' 12" type="float64" mode="rw">6278.830440750135</MDATTR>
+                        <MDATTR name="Position vector X 1" type="float64" mode="rw">-1383838.068249481</MDATTR>
+                        <MDATTR name="Position vector Z 19" type="float64" mode="rw">6902812.07218509</MDATTR>
+                        <MDATTR name="Velocity vector Z' 20" type="float64" mode="rw">721.8044659182706</MDATTR>
+                        <MDATTR name="Position vector X 4" type="float64" mode="rw">-1562625.900320682</MDATTR>
+                        <MDATTR name="Position vector Z 17" type="float64" mode="rw">6704286.220172273</MDATTR>
+                        <MDATTR name="Position vector X 5" type="float64" mode="rw">-1606494.479895399</MDATTR>
+                        <MDATTR name="Position vector Z 18" type="float64" mode="rw">6817386.856398501</MDATTR>
+                        <MDATTR name="Position vector X 2" type="float64" mode="rw">-1450842.829857398</MDATTR>
+                        <MDATTR name="Position vector Z 15" type="float64" mode="rw">6396994.629586639</MDATTR>
+                        <MDATTR name="Position vector X 3" type="float64" mode="rw">-1510596.826272099</MDATTR>
+                        <MDATTR name="Position vector Z 16" type="float64" mode="rw">6563966.6393303</MDATTR>
+                        <MDATTR name="Position vector X 8" type="float64" mode="rw">-1685415.324538003</MDATTR>
+                        <MDATTR name="Velocity vector Z' 25" type="float64" mode="rw">-1630.043490672089</MDATTR>
+                        <MDATTR name="Position vector X 9" type="float64" mode="rw">-1693147.594135048</MDATTR>
+                        <MDATTR name="Velocity vector Z' 26" type="float64" mode="rw">-2088.239790478337</MDATTR>
+                        <MDATTR name="Position vector X 6" type="float64" mode="rw">-1641808.268050343</MDATTR>
+                        <MDATTR name="Velocity vector Z' 27" type="float64" mode="rw">-2538.010088700185</MDATTR>
+                        <MDATTR name="Position vector X 7" type="float64" mode="rw">-1668216.7243662</MDATTR>
+                        <MDATTR name="Velocity vector Z' 28" type="float64" mode="rw">-2977.534609685335</MDATTR>
+                        <MDATTR name="Velocity vector Z' 21" type="float64" mode="rw">249.6416845234776</MDATTR>
+                        <MDATTR name="Velocity vector Z' 22" type="float64" mode="rw">-223.5303664204365</MDATTR>
+                        <MDATTR name="Velocity vector Z' 23" type="float64" mode="rw">-695.8034261138085</MDATTR>
+                        <MDATTR name="Velocity vector Z' 24" type="float64" mode="rw">-1165.272547961314</MDATTR>
+                        <MDATTR name="Velocity vector Z' 18" type="float64" mode="rw">1655.495742289604</MDATTR>
+                        <MDATTR name="Velocity vector Z' 19" type="float64" mode="rw">1191.053488552578</MDATTR>
+                        <MDATTR name="Radial position error" type="float64" mode="rw">1.0</MDATTR>
+                        <MDATTR name="Position vector Z 13" type="float64" mode="rw">5985896.350554751</MDATTR>
+                        <MDATTR name="Position vector Z 14" type="float64" mode="rw">6204044.619470804</MDATTR>
+                        <MDATTR name="Position vector Z 11" type="float64" mode="rw">5477631.966184191</MDATTR>
+                        <MDATTR name="Position vector Z 12" type="float64" mode="rw">5743431.838205395</MDATTR>
+                        <MDATTR name="Position vector Z 10" type="float64" mode="rw">5189572.70537286</MDATTR>
+                        <MDATTR name="Position vector Z 28" type="float64" mode="rw">6406883.638203774</MDATTR>
+                        <MDATTR name="Second Record Subtype" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="Position vector Z 26" type="float64" mode="rw">6711239.906273657</MDATTR>
+                        <MDATTR name="Position vector Z 27" type="float64" mode="rw">6572405.698926568</MDATTR>
+                        <MDATTR name="Greenwich mean hour angle" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Position vector Z 24" type="float64" mode="rw">6906713.614804964</MDATTR>
+                        <MDATTR name="Position vector Z 25" type="float64" mode="rw">6822825.932031324</MDATTR>
+                        <MDATTR name="Position vector Z 22" type="float64" mode="rw">6990153.939852498</MDATTR>
+                        <MDATTR name="Position vector Z 23" type="float64" mode="rw">6962564.662189357</MDATTR>
+                        <MDATTR name="Velocity vector X' 8" type="float64" mode="rw">-208.4013960649159</MDATTR>
+                        <MDATTR name="Position vector Z 20" type="float64" mode="rw">6960217.125947313</MDATTR>
+                        <MDATTR name="Velocity vector X' 7" type="float64" mode="rw">-364.1723900497726</MDATTR>
+                        <MDATTR name="Position vector Z 21" type="float64" mode="rw">6989370.324489804</MDATTR>
+                        <MDATTR name="Along track velocity error" type="float64" mode="rw">0.0166667</MDATTR>
+                        <MDATTR name="Velocity vector X' 9" type="float64" mode="rw">-48.76654897532143</MDATTR>
+                        <MDATTR name="Velocity vector X' 4" type="float64" mode="rw">-800.3011796906485</MDATTR>
+                        <MDATTR name="Velocity vector X' 3" type="float64" mode="rw">-932.7906851454621</MDATTR>
+                        <MDATTR name="Velocity vector X' 6" type="float64" mode="rw">-515.2630681709518</MDATTR>
+                        <MDATTR name="Velocity vector X' 5" type="float64" mode="rw">-660.8889073342514</MDATTR>
+                        <MDATTR name="Position vector Y 3" type="float64" mode="rw">-6377199.515449099</MDATTR>
+                        <MDATTR name="Position vector Y 4" type="float64" mode="rw">-6178346.820923338</MDATTR>
+                        <MDATTR name="Position vector Y 1" type="float64" mode="rw">-6695426.280885466</MDATTR>
+                        <MDATTR name="Velocity vector X' 2" type="float64" mode="rw">-1057.691361569937</MDATTR>
+                        <MDATTR name="Velocity vector X' 1" type="float64" mode="rw">-1174.383663655654</MDATTR>
+                        <MDATTR name="Position vector Y 2" type="float64" mode="rw">-6549813.529027738</MDATTR>
+                        <MDATTR name="Position vector Y 7" type="float64" mode="rw">-5433619.44089115</MDATTR>
+                        <MDATTR name="Position vector Y 8" type="float64" mode="rw">-5139589.848842771</MDATTR>
+                        <MDATTR name="Position vector Y 5" type="float64" mode="rw">-5954128.818440154</MDATTR>
+                        <MDATTR name="Position vector Y 6" type="float64" mode="rw">-5705525.601134777</MDATTR>
+                        <MDATTR name="Position vector Y 9" type="float64" mode="rw">-4824708.255512706</MDATTR>
+                        <MDATTR name="Across track velocity error" type="float64" mode="rw">0.0166667</MDATTR>
+                        <MDATTR name="Velocity vector Z' 14" type="float64" mode="rw">3428.128801251531</MDATTR>
+                        <MDATTR name="Velocity vector Z' 15" type="float64" mode="rw">3001.371439363786</MDATTR>
+                        <MDATTR name="Velocity vector Z' 16" type="float64" mode="rw">2562.488113360746</MDATTR>
+                        <MDATTR name="Velocity vector Z' 17" type="float64" mode="rw">2113.25703161325</MDATTR>
+                        <MDATTR name="Velocity vector Z' 10" type="float64" mode="rw">4980.122517314443</MDATTR>
+                        <MDATTR name="Velocity vector Z' 11" type="float64" mode="rw">4618.610297291676</MDATTR>
+                        <MDATTR name="Velocity vector Z' 12" type="float64" mode="rw">4238.39551180185</MDATTR>
+                        <MDATTR name="Velocity vector Z' 13" type="float64" mode="rw">3841.029214822535</MDATTR>
+                        <MDATTR name="Day of data point" type="int32" mode="rw">21</MDATTR>
+                        <MDATTR name="Position vector Z 2" type="float64" mode="rw">2240576.869218672</MDATTR>
+                        <MDATTR name="Position vector Z 3" type="float64" mode="rw">2658128.225348832</MDATTR>
+                        <MDATTR name="Position vector Z 1" type="float64" mode="rw">1813911.579949868</MDATTR>
+                        <MDATTR name="Position vector Z 6" type="float64" mode="rw">3839343.862369817</MDATTR>
+                        <MDATTR name="Position vector Z 7" type="float64" mode="rw">4203934.020145483</MDATTR>
+                        <MDATTR name="Position vector Z 4" type="float64" mode="rw">3064867.253677221</MDATTR>
+                        <MDATTR name="Position vector Z 5" type="float64" mode="rw">3459140.014098341</MDATTR>
+                        <MDATTR name="Along track position error" type="float64" mode="rw">1.0</MDATTR>
+                        <MDATTR name="Position vector Z 8" type="float64" mode="rw">4551429.860320914</MDATTR>
+                        <MDATTR name="Position vector Z 9" type="float64" mode="rw">4880420.933516541</MDATTR>
+                        <MDATTR name="Position vector Y 18" type="float64" mode="rw">-1299771.781187088</MDATTR>
+                        <MDATTR name="Position vector Y 19" type="float64" mode="rw">-862014.2261085799</MDATTR>
+                        <MDATTR name="Position vector Y 16" type="float64" mode="rw">-2159976.062867912</MDATTR>
+                        <MDATTR name="Position vector Y 17" type="float64" mode="rw">-1733034.979058163</MDATTR>
+                        <MDATTR name="Position vector Y 14" type="float64" mode="rw">-2987702.336372512</MDATTR>
+                        <MDATTR name="Position vector Y 15" type="float64" mode="rw">-2578790.029297551</MDATTR>
+                        <MDATTR name="Across track position error" type="float64" mode="rw">1.0</MDATTR>
+                        <MDATTR name="First Record Subtype" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="Position vector Y 12" type="float64" mode="rw">-3768921.670264423</MDATTR>
+                        <MDATTR name="Position vector Y 13" type="float64" mode="rw">-3384976.525183751</MDATTR>
+                        <MDATTR name="Position vector Y 10" type="float64" mode="rw">-4490332.286892818</MDATTR>
+                        <MDATTR name="Position vector Y 11" type="float64" mode="rw">-4137899.653363157</MDATTR>
+                        <MDATTR name="Position vector Y 27" type="float64" mode="rw">2581127.051122002</MDATTR>
+                        <MDATTR name="Position vector Y 28" type="float64" mode="rw">2977153.810189174</MDATTR>
+                        <MDATTR name="Position vector Y 25" type="float64" mode="rw">1755640.092543989</MDATTR>
+                        <MDATTR name="Position vector Y 26" type="float64" mode="rw">2173393.578873156</MDATTR>
+                        <MDATTR name="Position vector Y 23" type="float64" mode="rw">897040.9513577813</MDATTR>
+                        <MDATTR name="Position vector Y 24" type="float64" mode="rw">1329598.946936133</MDATTR>
+                        <MDATTR name="Position vector Y 21" type="float64" mode="rw">19605.51327950889</MDATTR>
+                        <MDATTR name="Position vector Y 22" type="float64" mode="rw">459767.9911974699</MDATTR>
+                        <MDATTR name="Position vector Y 20" type="float64" mode="rw">-421605.0989714412</MDATTR>
+                        <MDATTR name="Seconds of day" type="float64" mode="rw">18180.0</MDATTR>
+                        <MDATTR name="1st orbital element x" type="float64" mode="rw">-1613945.2119926</MDATTR>
+                        <MDATTR name="Year of data point" type="int32" mode="rw">2011</MDATTR>
+                        <MDATTR name="Velocity vector X' 12" type="float64" mode="rw">444.768765962181</MDATTR>
+                        <MDATTR name="Velocity vector X' 13" type="float64" mode="rw">611.2099473859547</MDATTR>
+                        <MDATTR name="Velocity vector X' 14" type="float64" mode="rw">777.1103470359541</MDATTR>
+                        <MDATTR name="Velocity vector X' 15" type="float64" mode="rw">941.5572541720713</MDATTR>
+                        <MDATTR name="2nd orbital element y" type="float64" mode="rw">-3260535.8552699</MDATTR>
+                        <MDATTR name="Velocity vector X' 16" type="float64" mode="rw">1103.637786208765</MDATTR>
+                        <MDATTR name="Velocity vector X' 17" type="float64" mode="rw">1262.443410409716</MDATTR>
+                        <MDATTR name="Velocity vector X' 18" type="float64" mode="rw">1417.074424950054</MDATTR>
+                        <MDATTR name="Velocity vector X' 19" type="float64" mode="rw">1566.644216830059</MDATTR>
+                        <MDATTR name="Orbital elements designator" type="ascii" mode="rw">2</MDATTR>
+                        <MDATTR name="Velocity vector X' 10" type="float64" mode="rw">113.8880297497295</MDATTR>
+                        <MDATTR name="Velocity vector X' 11" type="float64" mode="rw">278.695043810173</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">4680</MDATTR>
+                        <MDATTR name="4th orbital element x'" type="float64" mode="rw">663.8468747</MDATTR>
+                        <MDATTR name="Record Number" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Month of data point" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Day in the year" type="int32" mode="rw">111</MDATTR>
+                        <MDATTR name="Position vector X 18" type="float64" mode="rw">-1320054.522163356</MDATTR>
+                        <MDATTR name="Position vector X 17" type="float64" mode="rw">-1400463.159877259</MDATTR>
+                        <MDATTR name="Position vector X 19" type="float64" mode="rw">-1230515.467314847</MDATTR>
+                        <MDATTR name="Reference coordinate system" type="ascii" mode="rw">ECR</MDATTR>
+                        <MDATTR name="Position vector X 14" type="float64" mode="rw">-1584403.768131482</MDATTR>
+                        <MDATTR name="Radial velocity error" type="float64" mode="rw">0.0166667</MDATTR>
+                        <MDATTR name="Position vector X 13" type="float64" mode="rw">-1626058.360482788</MDATTR>
+                        <MDATTR name="Position vector X 16" type="float64" mode="rw">-1471464.228867757</MDATTR>
+                        <MDATTR name="Position vector X 15" type="float64" mode="rw">-1532834.188885612</MDATTR>
+                        <MDATTR name="Position vector X 10" type="float64" mode="rw">-1691206.898478558</MDATTR>
+                        <MDATTR name="Position vector X 12" type="float64" mode="rw">-1657738.149163973</MDATTR>
+                        <MDATTR name="Position vector X 11" type="float64" mode="rw">-1679437.968144355</MDATTR>
+                        <MDATTR name="Velocity vector X' 23" type="float64" mode="rw">2097.298341563746</MDATTR>
+                        <MDATTR name="Velocity vector X' 24" type="float64" mode="rw">2209.045731326221</MDATTR>
+                        <MDATTR name="Position vector X 28" type="float64" mode="rw">-84400.57933210272</MDATTR>
+                        <MDATTR name="Velocity vector X' 25" type="float64" mode="rw">2310.944217203337</MDATTR>
+                        <MDATTR name="Velocity vector X' 26" type="float64" mode="rw">2402.324679371545</MDATTR>
+                        <MDATTR name="Position vector X 25" type="float64" mode="rw">-523526.4032442744</MDATTR>
+                        <MDATTR name="Velocity vector X' 27" type="float64" mode="rw">2482.565273500393</MDATTR>
+                        <MDATTR name="Position vector X 24" type="float64" mode="rw">-659177.0585056524</MDATTR>
+                        <MDATTR name="Velocity vector X' 28" type="float64" mode="rw">2551.094790601111</MDATTR>
+                        <MDATTR name="3rd orbital element z" type="float64" mode="rw">6057651.4094864</MDATTR>
+                        <MDATTR name="Position vector X 27" type="float64" mode="rw">-235470.2778709084</MDATTR>
+                        <MDATTR name="Position vector X 26" type="float64" mode="rw">-382074.1492150642</MDATTR>
+                        <MDATTR name="Velocity vector X' 20" type="float64" mode="rw">1710.283946744685</MDATTR>
+                        <MDATTR name="Third Record Subtype" type="int32" mode="rw">20</MDATTR>
+                        <MDATTR name="Velocity vector X' 21" type="float64" mode="rw">1847.14726048969</MDATTR>
+                        <MDATTR name="Velocity vector X' 22" type="float64" mode="rw">1976.414737294158</MDATTR>
+                        <MDATTR name="Position vector X 21" type="float64" mode="rw">-1025416.942907899</MDATTR>
+                        <MDATTR name="Position vector X 20" type="float64" mode="rw">-1132175.834941903</MDATTR>
+                        <MDATTR name="Position vector X 23" type="float64" mode="rw">-788414.8794303495</MDATTR>
+                        <MDATTR name="Position vector X 22" type="float64" mode="rw">-910670.1047012174</MDATTR>
+                        <MDATTR name="Velocity vector Z' 9" type="float64" mode="rw">5321.454064994032</MDATTR>
+                    </MDElem>
+                    <MDElem name="Data Quality">
+                        <MDATTR name="Record Length" type="int32" mode="rw">1620</MDATTR>
+                        <MDATTR name="Second Record Subtype" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="Record Number" type="int32" mode="rw">7</MDATTR>
+                        <MDATTR name="First Record Subtype" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="Data summary quality record sequence number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Third Record Subtype" type="int32" mode="rw">20</MDATTR>
+                        <MDATTR name="Record Type Code" type="int32" mode="rw">60</MDATTR>
+                        <MDATTR name="Date of the last calibration update" type="ascii" mode="rw">061013</MDATTR>
+                    </MDElem>
+                    <MDElem name="Attitude">
+                        <MDATTR name="Yaw rate data quality flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">8192</MDATTR>
+                        <MDATTR name="Yaw rate" type="float64" mode="rw">0.0033</MDATTR>
+                        <MDATTR name="Roll data quality flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Roll rate data quality flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Yaw data quality flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Pitch" type="float64" mode="rw">0.01</MDATTR>
+                        <MDATTR name="Roll" type="float64" mode="rw">-0.008</MDATTR>
+                        <MDATTR name="Day of the year" type="int32" mode="rw">111</MDATTR>
+                        <MDATTR name="Pitch data quality flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Yaw" type="float64" mode="rw">-1.946</MDATTR>
+                        <MDATTR name="Millisecond of day" type="int32" mode="rw">18909064</MDATTR>
+                        <MDATTR name="Pitch rate" type="float64" mode="rw">-0.0012</MDATTR>
+                        <MDATTR name="Pitch rate data quality flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Roll rate" type="float64" mode="rw">4.0E-4</MDATTR>
+                        <MDATTR name="Number of attitude data points" type="int32" mode="rw">22</MDATTR>
+                    </MDElem>
+                    <MDElem name="Radiometric">
+                        <MDATTR name="Imaginary part of DT 2,1" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Imaginary part of DT 2,2" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Real part of DR 2,2" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">9860</MDATTR>
+                        <MDATTR name="Real part of DR 2,1" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Imaginary part of DR 2,1" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Imaginary part of DR 2,2" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="SAR channel indicator" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Real part of DT 2,1" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Real part of DT 2,2" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Calibration factor" type="float64" mode="rw">-83.0</MDATTR>
+                        <MDATTR name="Imaginary part of DT 1,1" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Imaginary part of DT 1,2" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Real part of DR 1,2" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Real part of DR 1,1" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Imaginary part of DR 1,2" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Imaginary part of DR 1,1" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Real part of DT 1,2" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Real part of DT 1,1" type="float64" mode="rw">0.0</MDATTR>
+                        <MDATTR name="Number of data sets" type="int32" mode="rw">1</MDATTR>
+                    </MDElem>
+                    <MDElem name="Facility Related">
+                        <MDATTR name="Record Length" type="int32" mode="rw">1540000</MDATTR>
+                        <MDATTR name="Second Record Subtype" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="Record Number" type="int32" mode="rw">8</MDATTR>
+                        <MDATTR name="First Record Subtype" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="Facility Related Data Record sequence number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Third Record Subtype" type="int32" mode="rw">70</MDATTR>
+                        <MDATTR name="Record Type Code" type="int32" mode="rw">200</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Trailer">
+                    <MDElem name="File Descriptor">
+                        <MDATTR name="Record code and location type flag" type="ascii" mode="rw">FTYP</MDATTR>
+                        <MDATTR name="Number of attitude data records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Det. processing record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record code field length" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Number of radar par. update records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Sequence Number Location" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Calibration record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Radar par. update record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="File Number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Number of DEM descriptor records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="Number of radiometric data records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Specification revision number" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record format revision number" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record length field length" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Number of calibration records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Data quality summary record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of facility data records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record Sequence and Location Type Flag" type="ascii" mode="rw">FSEQ</MDATTR>
+                        <MDATTR name="Number of data histograms records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Facility data record maximum length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of GCP records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of data set summary records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of range spectra records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record length and location type flag" type="ascii" mode="rw">FLGT</MDATTR>
+                        <MDATTR name="Number of det. processing records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="DEM descriptor record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of data quality summary records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Range spectra record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Data set summary record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Radiometric compensation rec. length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of rad. compensation records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="File Name" type="ascii" mode="rw">AL1 PSRCSART</MDATTR>
+                        <MDATTR name="Data histogram record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of platform pos. data records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record length location" type="int32" mode="rw">9</MDATTR>
+                        <MDATTR name="Radiometric record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Map projection record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Specification number" type="ascii" mode="rw">CEOS-SAR-CCT</MDATTR>
+                        <MDATTR name="Software version number" type="ascii" mode="rw">1.00</MDATTR>
+                        <MDATTR name="Attitude data record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Platform position record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Sequence number field length" type="int32" mode="rw">4</MDATTR>
+                        <MDATTR name="Number of map projection data records" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="GCP record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Record code location" type="int32" mode="rw">5</MDATTR>
+                        <MDATTR name="Annotation data record length" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Number of annotation data records" type="int32" mode="rw">0</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Volume">
+                    <MDElem name="Volume Descriptor">
+                        <MDATTR name="Number of first file following the volume directory file" type="int32" mode="rw">6</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">360</MDATTR>
+                        <MDATTR name="Logical volume number in volume set" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Specification revision number" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record format revision number" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Volume number of this volume descriptor record" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Physical volume ID" type="ascii" mode="rw">EOC-</MDATTR>
+                        <MDATTR name="Logical volume preparing facility" type="ascii" mode="rw">EOC-ALOS-DPS</MDATTR>
+                        <MDATTR name="Logical volume preparing agency" type="ascii" mode="rw">JAXA</MDATTR>
+                        <MDATTR name="Number of filepointer records" type="int32" mode="rw">6</MDATTR>
+                        <MDATTR name="Physical volume number in volume set" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Logical volume preparation time" type="ascii" mode="rw">11293700</MDATTR>
+                        <MDATTR name="Logical volume preparation country" type="ascii" mode="rw">JAPAN</MDATTR>
+                        <MDATTR name="Total number of logical volume set" type="int32" mode="rw">32</MDATTR>
+                        <MDATTR name="Logical volume ID" type="ascii" mode="rw">AL1PSR20161023</MDATTR>
+                        <MDATTR name="Logical volume preparation date" type="ascii" mode="rw">20161023</MDATTR>
+                        <MDATTR name="Specification number" type="ascii" mode="rw">CEOS-SAR-CCT</MDATTR>
+                        <MDATTR name="Volume set ID" type="ascii" mode="rw">ALOS   PALSAR</MDATTR>
+                        <MDATTR name="Software version number" type="ascii" mode="rw">1.00</MDATTR>
+                        <MDATTR name="Number of records" type="int32" mode="rw">1</MDATTR>
+                    </MDElem>
+                    <MDElem name="Text Record">
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">360</MDATTR>
+                        <MDATTR name="Location and datetime of product creation" type="ascii" mode="rw">PROCESS:JAPAN-JAXA-EOC-ALOS-DPS  20161023 112937</MDATTR>
+                        <MDATTR name="Scene location" type="ascii" mode="rw">FRAME CENTRE: N+ 59.87  E-111.62</MDATTR>
+                        <MDATTR name="Product type specifier" type="ascii" mode="rw">PRODUCT:P1.5_UA</MDATTR>
+                        <MDATTR name="Physical volume identification" type="ascii" mode="rw">TAPE ID:</MDATTR>
+                        <MDATTR name="Scene identification" type="ascii" mode="rw">ORBIT :ALPSRP279071200</MDATTR>
+                    </MDElem>
+                    <MDElem name="File Pointer Record 1">
+                        <MDATTR name="File class code" type="ascii" mode="rw">SARL</MDATTR>
+                        <MDATTR name="File datatype" type="ascii" mode="rw">MIXED BINARY AND ASCII</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">360</MDATTR>
+                        <MDATTR name="FirstRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="FirstRecordLength" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="MaxRecordLength" type="int32" mode="rw">4370000</MDATTR>
+                        <MDATTR name="File Pointer Number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="RecordLengthType" type="ascii" mode="rw">VARIABLE LEN</MDATTR>
+                        <MDATTR name="FinalRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File class" type="ascii" mode="rw">SARLEADER FILE</MDATTR>
+                        <MDATTR name="RecordLengthTypeCode" type="ascii" mode="rw">VARE</MDATTR>
+                        <MDATTR name="ReferencedFilePortionStart" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File ID" type="ascii" mode="rw">AL1 PSRCSARL</MDATTR>
+                        <MDATTR name="ReferencedFilePortionEnd" type="int32" mode="rw">18</MDATTR>
+                        <MDATTR name="File datatype Code" type="ascii" mode="rw">MBAA</MDATTR>
+                        <MDATTR name="Number of records" type="int32" mode="rw">18</MDATTR>
+                    </MDElem>
+                    <MDElem name="File Pointer Record 2">
+                        <MDATTR name="File class code" type="ascii" mode="rw">IMOP</MDATTR>
+                        <MDATTR name="File datatype" type="ascii" mode="rw">MIXED BINARY AND ASCII</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">360</MDATTR>
+                        <MDATTR name="FirstRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="FirstRecordLength" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="MaxRecordLength" type="int32" mode="rw">4992</MDATTR>
+                        <MDATTR name="File Pointer Number" type="int32" mode="rw">2</MDATTR>
+                        <MDATTR name="RecordLengthType" type="ascii" mode="rw">VARIABLE LEN</MDATTR>
+                        <MDATTR name="FinalRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File class" type="ascii" mode="rw">IMAGERY OPTIONS FILE</MDATTR>
+                        <MDATTR name="RecordLengthTypeCode" type="ascii" mode="rw">VARE</MDATTR>
+                        <MDATTR name="ReferencedFilePortionStart" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File ID" type="ascii" mode="rw">AL1 PSRCIMOP</MDATTR>
+                        <MDATTR name="ReferencedFilePortionEnd" type="int32" mode="rw">5201</MDATTR>
+                        <MDATTR name="File datatype Code" type="ascii" mode="rw">MBAA</MDATTR>
+                        <MDATTR name="Number of records" type="int32" mode="rw">5201</MDATTR>
+                    </MDElem>
+                    <MDElem name="File Pointer Record 3">
+                        <MDATTR name="File class code" type="ascii" mode="rw">IMOP</MDATTR>
+                        <MDATTR name="File datatype" type="ascii" mode="rw">MIXED BINARY AND ASCII</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">360</MDATTR>
+                        <MDATTR name="FirstRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="FirstRecordLength" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="MaxRecordLength" type="int32" mode="rw">4992</MDATTR>
+                        <MDATTR name="File Pointer Number" type="int32" mode="rw">2</MDATTR>
+                        <MDATTR name="RecordLengthType" type="ascii" mode="rw">VARIABLE LEN</MDATTR>
+                        <MDATTR name="FinalRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File class" type="ascii" mode="rw">IMAGERY OPTIONS FILE</MDATTR>
+                        <MDATTR name="RecordLengthTypeCode" type="ascii" mode="rw">VARE</MDATTR>
+                        <MDATTR name="ReferencedFilePortionStart" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File ID" type="ascii" mode="rw">AL1 PSRCIMOP</MDATTR>
+                        <MDATTR name="ReferencedFilePortionEnd" type="int32" mode="rw">5201</MDATTR>
+                        <MDATTR name="File datatype Code" type="ascii" mode="rw">MBAA</MDATTR>
+                        <MDATTR name="Number of records" type="int32" mode="rw">5201</MDATTR>
+                    </MDElem>
+                    <MDElem name="File Pointer Record 4">
+                        <MDATTR name="File class code" type="ascii" mode="rw">IMOP</MDATTR>
+                        <MDATTR name="File datatype" type="ascii" mode="rw">MIXED BINARY AND ASCII</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">360</MDATTR>
+                        <MDATTR name="FirstRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="FirstRecordLength" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="MaxRecordLength" type="int32" mode="rw">4992</MDATTR>
+                        <MDATTR name="File Pointer Number" type="int32" mode="rw">2</MDATTR>
+                        <MDATTR name="RecordLengthType" type="ascii" mode="rw">VARIABLE LEN</MDATTR>
+                        <MDATTR name="FinalRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File class" type="ascii" mode="rw">IMAGERY OPTIONS FILE</MDATTR>
+                        <MDATTR name="RecordLengthTypeCode" type="ascii" mode="rw">VARE</MDATTR>
+                        <MDATTR name="ReferencedFilePortionStart" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File ID" type="ascii" mode="rw">AL1 PSRCIMOP</MDATTR>
+                        <MDATTR name="ReferencedFilePortionEnd" type="int32" mode="rw">5201</MDATTR>
+                        <MDATTR name="File datatype Code" type="ascii" mode="rw">MBAA</MDATTR>
+                        <MDATTR name="Number of records" type="int32" mode="rw">5201</MDATTR>
+                    </MDElem>
+                    <MDElem name="File Pointer Record 5">
+                        <MDATTR name="File class code" type="ascii" mode="rw">IMOP</MDATTR>
+                        <MDATTR name="File datatype" type="ascii" mode="rw">MIXED BINARY AND ASCII</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">360</MDATTR>
+                        <MDATTR name="FirstRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="FirstRecordLength" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="MaxRecordLength" type="int32" mode="rw">4992</MDATTR>
+                        <MDATTR name="File Pointer Number" type="int32" mode="rw">2</MDATTR>
+                        <MDATTR name="RecordLengthType" type="ascii" mode="rw">VARIABLE LEN</MDATTR>
+                        <MDATTR name="FinalRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File class" type="ascii" mode="rw">IMAGERY OPTIONS FILE</MDATTR>
+                        <MDATTR name="RecordLengthTypeCode" type="ascii" mode="rw">VARE</MDATTR>
+                        <MDATTR name="ReferencedFilePortionStart" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File ID" type="ascii" mode="rw">AL1 PSRCIMOP</MDATTR>
+                        <MDATTR name="ReferencedFilePortionEnd" type="int32" mode="rw">5201</MDATTR>
+                        <MDATTR name="File datatype Code" type="ascii" mode="rw">MBAA</MDATTR>
+                        <MDATTR name="Number of records" type="int32" mode="rw">5201</MDATTR>
+                    </MDElem>
+                    <MDElem name="File Pointer Record 6">
+                        <MDATTR name="File class code" type="ascii" mode="rw">SART</MDATTR>
+                        <MDATTR name="File datatype" type="ascii" mode="rw">MIXED BINARY AND ASCII</MDATTR>
+                        <MDATTR name="Ascii code character" type="ascii" mode="rw">A</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">360</MDATTR>
+                        <MDATTR name="FirstRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="FirstRecordLength" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="MaxRecordLength" type="int32" mode="rw">720</MDATTR>
+                        <MDATTR name="File Pointer Number" type="int32" mode="rw">3</MDATTR>
+                        <MDATTR name="RecordLengthType" type="ascii" mode="rw">VARIABLE LEN</MDATTR>
+                        <MDATTR name="FinalRecordVolumeNumber" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File class" type="ascii" mode="rw">SARTRAILER FILE</MDATTR>
+                        <MDATTR name="RecordLengthTypeCode" type="ascii" mode="rw">VARE</MDATTR>
+                        <MDATTR name="ReferencedFilePortionStart" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="File ID" type="ascii" mode="rw">AL1 PSRCSART</MDATTR>
+                        <MDATTR name="ReferencedFilePortionEnd" type="int32" mode="rw">701</MDATTR>
+                        <MDATTR name="File datatype Code" type="ascii" mode="rw">MBAA</MDATTR>
+                        <MDATTR name="Number of records" type="int32" mode="rw">701</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Image Descriptor 1">
+                    <MDATTR name="Record code and location type flag" type="ascii" mode="rw">FTYP</MDATTR>
+                    <MDATTR name="Number of SAR DATA records" type="int32" mode="rw">5200</MDATTR>
+                    <MDATTR name="Number of lines per data set" type="int32" mode="rw">5200</MDATTR>
+                    <MDATTR name="SAR DATA record length" type="int32" mode="rw">4992</MDATTR>
+                    <MDATTR name="Generating software release and revision level" type="ascii" mode="rw">1.00</MDATTR>
+                    <MDATTR name="Record code field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="File name" type="ascii" mode="rw">AL1 PSRCIMOP</MDATTR>
+                    <MDATTR name="Format control document ID for this data file format" type="ascii" mode="rw">CEOS-SAR-CCT</MDATTR>
+                    <MDATTR name="Record Length" type="int32" mode="rw">720</MDATTR>
+                    <MDATTR name="Sequence number location" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Number of left fill bits within pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="ASCII/EBCDIC flag" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Record length field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="Number of bytes of prefix data per record" type="int32" mode="rw">192</MDATTR>
+                    <MDATTR name="Number of bytes of suffix data per record" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Second Record Subtype" type="int32" mode="rw">18</MDATTR>
+                    <MDATTR name="Interleaving indicator" type="ascii" mode="rw">BSQ</MDATTR>
+                    <MDATTR name="Maximum data range of pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of samples per data group" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Record Number" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="File number" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="First Record Subtype" type="int32" mode="rw">50</MDATTR>
+                    <MDATTR name="Number of left border pixels per line" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of physical records per line" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="File design descriptor revision letter" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Number of top border lines" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of bottom border lines" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Record length and location type flag" type="ascii" mode="rw">FLGT</MDATTR>
+                    <MDATTR name="Number of SAR channels in this file" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Format control document revision level" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Number of pixels per line per SAR channel" type="int32" mode="rw">2400</MDATTR>
+                    <MDATTR name="Number of right fill bits within pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Record sequence and location type flag" type="ascii" mode="rw">FSEQ</MDATTR>
+                    <MDATTR name="Record length location" type="int32" mode="rw">9</MDATTR>
+                    <MDATTR name="Third Record Subtype" type="int32" mode="rw">18</MDATTR>
+                    <MDATTR name="Number of bytes per data group" type="int32" mode="rw">2</MDATTR>
+                    <MDATTR name="Sequence number field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="Record Type Code" type="int32" mode="rw">192</MDATTR>
+                    <MDATTR name="Record code location" type="int32" mode="rw">5</MDATTR>
+                    <MDATTR name="Number of bits per sample" type="int32" mode="rw">16</MDATTR>
+                    <MDATTR name="Number of physical records per multi-channel line" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Number of bytes of SAR data per record" type="int32" mode="rw">4800</MDATTR>
+                    <MDATTR name="Number of right border pixels per line" type="int32" mode="rw">0</MDATTR>
+                    <MDElem name="Image Record">
+                        <MDATTR name="SAR image data line number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Sensor acquisition day of year" type="int32" mode="rw">111</MDATTR>
+                        <MDATTR name="SAR image data record index" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Last pixel longitude" type="int32" mode="rw">-111499944</MDATTR>
+                        <MDATTR name="PRF" type="int32" mode="rw">1930502</MDATTR>
+                        <MDATTR name="Sensor parameters update flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Mid-pixel Doppler centroid" type="int32" mode="rw">53119</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">4992</MDATTR>
+                        <MDATTR name="Mid-pixel longitude" type="int32" mode="rw">-111762167</MDATTR>
+                        <MDATTR name="Slant range to 1st pixel" type="int32" mode="rw">756426</MDATTR>
+                        <MDATTR name="Mid-pixel azimuth FM rate" type="int32" mode="rw">-572685</MDATTR>
+                        <MDATTR name="Azimuth squint angle" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Mid-pixel latitude" type="int32" mode="rw">60151024</MDATTR>
+                        <MDATTR name="First pixel azimuth FM rate" type="int32" mode="rw">-577380</MDATTR>
+                        <MDATTR name="Actual count of left-fill pixels" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="First pixel longitude" type="int32" mode="rw">-112023659</MDATTR>
+                        <MDATTR name="Sensor acquisition milliseconds of day" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Received polarization" type="ascii" mode="rw">0</MDATTR>
+                        <MDATTR name="SAR channel indicator" type="ascii" mode="rw">4</MDATTR>
+                        <MDATTR name="Sensor acquisition year" type="int32" mode="rw">2011</MDATTR>
+                        <MDATTR name="Actual count of right-fill pixels" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="First pixel latitude" type="int32" mode="rw">60117890</MDATTR>
+                        <MDATTR name="Nadir look angle" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Geographic ref. parameter update flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="SAR channel code" type="ascii" mode="rw">0</MDATTR>
+                        <MDATTR name="Actual count of data pixels" type="int32" mode="rw">2400</MDATTR>
+                        <MDATTR name="Transmitted polarization" type="ascii" mode="rw">0</MDATTR>
+                        <MDATTR name="Last pixel Doppler centroid" type="int32" mode="rw">52420</MDATTR>
+                        <MDATTR name="Last pixel latitude" type="int32" mode="rw">60183667</MDATTR>
+                        <MDATTR name="Slant range to last pixel" type="int32" mode="rw">768545</MDATTR>
+                        <MDATTR name="Slant range to mid-pixel" type="int32" mode="rw">762344</MDATTR>
+                        <MDATTR name="First pixel Doppler centroid" type="int32" mode="rw">53785</MDATTR>
+                        <MDATTR name="Last pixel azimuth FM rate" type="int32" mode="rw">-567848</MDATTR>
+                        <MDATTR name="Scan ID for SCAN SAR mode" type="int32" mode="rw">0</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Image Descriptor 2">
+                    <MDATTR name="Record code and location type flag" type="ascii" mode="rw">FTYP</MDATTR>
+                    <MDATTR name="Number of SAR DATA records" type="int32" mode="rw">5200</MDATTR>
+                    <MDATTR name="Number of lines per data set" type="int32" mode="rw">5200</MDATTR>
+                    <MDATTR name="SAR DATA record length" type="int32" mode="rw">4992</MDATTR>
+                    <MDATTR name="Generating software release and revision level" type="ascii" mode="rw">1.00</MDATTR>
+                    <MDATTR name="Record code field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="File name" type="ascii" mode="rw">AL1 PSRCIMOP</MDATTR>
+                    <MDATTR name="Format control document ID for this data file format" type="ascii" mode="rw">CEOS-SAR-CCT</MDATTR>
+                    <MDATTR name="Record Length" type="int32" mode="rw">720</MDATTR>
+                    <MDATTR name="Sequence number location" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Number of left fill bits within pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="ASCII/EBCDIC flag" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Record length field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="Number of bytes of prefix data per record" type="int32" mode="rw">192</MDATTR>
+                    <MDATTR name="Number of bytes of suffix data per record" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Second Record Subtype" type="int32" mode="rw">18</MDATTR>
+                    <MDATTR name="Interleaving indicator" type="ascii" mode="rw">BSQ</MDATTR>
+                    <MDATTR name="Maximum data range of pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of samples per data group" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Record Number" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="File number" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="First Record Subtype" type="int32" mode="rw">50</MDATTR>
+                    <MDATTR name="Number of left border pixels per line" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of physical records per line" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="File design descriptor revision letter" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Number of top border lines" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of bottom border lines" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Record length and location type flag" type="ascii" mode="rw">FLGT</MDATTR>
+                    <MDATTR name="Number of SAR channels in this file" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Format control document revision level" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Number of pixels per line per SAR channel" type="int32" mode="rw">2400</MDATTR>
+                    <MDATTR name="Number of right fill bits within pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Record sequence and location type flag" type="ascii" mode="rw">FSEQ</MDATTR>
+                    <MDATTR name="Record length location" type="int32" mode="rw">9</MDATTR>
+                    <MDATTR name="Third Record Subtype" type="int32" mode="rw">18</MDATTR>
+                    <MDATTR name="Number of bytes per data group" type="int32" mode="rw">2</MDATTR>
+                    <MDATTR name="Sequence number field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="Record Type Code" type="int32" mode="rw">192</MDATTR>
+                    <MDATTR name="Record code location" type="int32" mode="rw">5</MDATTR>
+                    <MDATTR name="Number of bits per sample" type="int32" mode="rw">16</MDATTR>
+                    <MDATTR name="Number of physical records per multi-channel line" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Number of bytes of SAR data per record" type="int32" mode="rw">4800</MDATTR>
+                    <MDATTR name="Number of right border pixels per line" type="int32" mode="rw">0</MDATTR>
+                    <MDElem name="Image Record">
+                        <MDATTR name="SAR image data line number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Sensor acquisition day of year" type="int32" mode="rw">111</MDATTR>
+                        <MDATTR name="SAR image data record index" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Last pixel longitude" type="int32" mode="rw">-111499944</MDATTR>
+                        <MDATTR name="PRF" type="int32" mode="rw">1930502</MDATTR>
+                        <MDATTR name="Sensor parameters update flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Mid-pixel Doppler centroid" type="int32" mode="rw">53119</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">4992</MDATTR>
+                        <MDATTR name="Mid-pixel longitude" type="int32" mode="rw">-111762167</MDATTR>
+                        <MDATTR name="Slant range to 1st pixel" type="int32" mode="rw">756426</MDATTR>
+                        <MDATTR name="Mid-pixel azimuth FM rate" type="int32" mode="rw">-572685</MDATTR>
+                        <MDATTR name="Azimuth squint angle" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Mid-pixel latitude" type="int32" mode="rw">60151024</MDATTR>
+                        <MDATTR name="First pixel azimuth FM rate" type="int32" mode="rw">-577380</MDATTR>
+                        <MDATTR name="Actual count of left-fill pixels" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="First pixel longitude" type="int32" mode="rw">-112023659</MDATTR>
+                        <MDATTR name="Sensor acquisition milliseconds of day" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Received polarization" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="SAR channel indicator" type="ascii" mode="rw">4</MDATTR>
+                        <MDATTR name="Sensor acquisition year" type="int32" mode="rw">2011</MDATTR>
+                        <MDATTR name="Actual count of right-fill pixels" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="First pixel latitude" type="int32" mode="rw">60117890</MDATTR>
+                        <MDATTR name="Nadir look angle" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Geographic ref. parameter update flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="SAR channel code" type="ascii" mode="rw">0</MDATTR>
+                        <MDATTR name="Actual count of data pixels" type="int32" mode="rw">2400</MDATTR>
+                        <MDATTR name="Transmitted polarization" type="ascii" mode="rw">0</MDATTR>
+                        <MDATTR name="Last pixel Doppler centroid" type="int32" mode="rw">52420</MDATTR>
+                        <MDATTR name="Last pixel latitude" type="int32" mode="rw">60183667</MDATTR>
+                        <MDATTR name="Slant range to last pixel" type="int32" mode="rw">768545</MDATTR>
+                        <MDATTR name="Slant range to mid-pixel" type="int32" mode="rw">762344</MDATTR>
+                        <MDATTR name="First pixel Doppler centroid" type="int32" mode="rw">53785</MDATTR>
+                        <MDATTR name="Last pixel azimuth FM rate" type="int32" mode="rw">-567848</MDATTR>
+                        <MDATTR name="Scan ID for SCAN SAR mode" type="int32" mode="rw">0</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Image Descriptor 3">
+                    <MDATTR name="Record code and location type flag" type="ascii" mode="rw">FTYP</MDATTR>
+                    <MDATTR name="Number of SAR DATA records" type="int32" mode="rw">5200</MDATTR>
+                    <MDATTR name="Number of lines per data set" type="int32" mode="rw">5200</MDATTR>
+                    <MDATTR name="SAR DATA record length" type="int32" mode="rw">4992</MDATTR>
+                    <MDATTR name="Generating software release and revision level" type="ascii" mode="rw">1.00</MDATTR>
+                    <MDATTR name="Record code field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="File name" type="ascii" mode="rw">AL1 PSRCIMOP</MDATTR>
+                    <MDATTR name="Format control document ID for this data file format" type="ascii" mode="rw">CEOS-SAR-CCT</MDATTR>
+                    <MDATTR name="Record Length" type="int32" mode="rw">720</MDATTR>
+                    <MDATTR name="Sequence number location" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Number of left fill bits within pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="ASCII/EBCDIC flag" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Record length field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="Number of bytes of prefix data per record" type="int32" mode="rw">192</MDATTR>
+                    <MDATTR name="Number of bytes of suffix data per record" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Second Record Subtype" type="int32" mode="rw">18</MDATTR>
+                    <MDATTR name="Interleaving indicator" type="ascii" mode="rw">BSQ</MDATTR>
+                    <MDATTR name="Maximum data range of pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of samples per data group" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Record Number" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="File number" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="First Record Subtype" type="int32" mode="rw">50</MDATTR>
+                    <MDATTR name="Number of left border pixels per line" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of physical records per line" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="File design descriptor revision letter" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Number of top border lines" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of bottom border lines" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Record length and location type flag" type="ascii" mode="rw">FLGT</MDATTR>
+                    <MDATTR name="Number of SAR channels in this file" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Format control document revision level" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Number of pixels per line per SAR channel" type="int32" mode="rw">2400</MDATTR>
+                    <MDATTR name="Number of right fill bits within pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Record sequence and location type flag" type="ascii" mode="rw">FSEQ</MDATTR>
+                    <MDATTR name="Record length location" type="int32" mode="rw">9</MDATTR>
+                    <MDATTR name="Third Record Subtype" type="int32" mode="rw">18</MDATTR>
+                    <MDATTR name="Number of bytes per data group" type="int32" mode="rw">2</MDATTR>
+                    <MDATTR name="Sequence number field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="Record Type Code" type="int32" mode="rw">192</MDATTR>
+                    <MDATTR name="Record code location" type="int32" mode="rw">5</MDATTR>
+                    <MDATTR name="Number of bits per sample" type="int32" mode="rw">16</MDATTR>
+                    <MDATTR name="Number of physical records per multi-channel line" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Number of bytes of SAR data per record" type="int32" mode="rw">4800</MDATTR>
+                    <MDATTR name="Number of right border pixels per line" type="int32" mode="rw">0</MDATTR>
+                    <MDElem name="Image Record">
+                        <MDATTR name="SAR image data line number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Sensor acquisition day of year" type="int32" mode="rw">111</MDATTR>
+                        <MDATTR name="SAR image data record index" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Last pixel longitude" type="int32" mode="rw">-111499944</MDATTR>
+                        <MDATTR name="PRF" type="int32" mode="rw">1930502</MDATTR>
+                        <MDATTR name="Sensor parameters update flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Mid-pixel Doppler centroid" type="int32" mode="rw">53119</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">4992</MDATTR>
+                        <MDATTR name="Mid-pixel longitude" type="int32" mode="rw">-111762167</MDATTR>
+                        <MDATTR name="Slant range to 1st pixel" type="int32" mode="rw">756426</MDATTR>
+                        <MDATTR name="Mid-pixel azimuth FM rate" type="int32" mode="rw">-572685</MDATTR>
+                        <MDATTR name="Azimuth squint angle" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Mid-pixel latitude" type="int32" mode="rw">60151024</MDATTR>
+                        <MDATTR name="First pixel azimuth FM rate" type="int32" mode="rw">-577380</MDATTR>
+                        <MDATTR name="Actual count of left-fill pixels" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="First pixel longitude" type="int32" mode="rw">-112023659</MDATTR>
+                        <MDATTR name="Sensor acquisition milliseconds of day" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Received polarization" type="ascii" mode="rw">0</MDATTR>
+                        <MDATTR name="SAR channel indicator" type="ascii" mode="rw">4</MDATTR>
+                        <MDATTR name="Sensor acquisition year" type="int32" mode="rw">2011</MDATTR>
+                        <MDATTR name="Actual count of right-fill pixels" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="First pixel latitude" type="int32" mode="rw">60117890</MDATTR>
+                        <MDATTR name="Nadir look angle" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Geographic ref. parameter update flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="SAR channel code" type="ascii" mode="rw">0</MDATTR>
+                        <MDATTR name="Actual count of data pixels" type="int32" mode="rw">2400</MDATTR>
+                        <MDATTR name="Transmitted polarization" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="Last pixel Doppler centroid" type="int32" mode="rw">52420</MDATTR>
+                        <MDATTR name="Last pixel latitude" type="int32" mode="rw">60183667</MDATTR>
+                        <MDATTR name="Slant range to last pixel" type="int32" mode="rw">768545</MDATTR>
+                        <MDATTR name="Slant range to mid-pixel" type="int32" mode="rw">762344</MDATTR>
+                        <MDATTR name="First pixel Doppler centroid" type="int32" mode="rw">53785</MDATTR>
+                        <MDATTR name="Last pixel azimuth FM rate" type="int32" mode="rw">-567848</MDATTR>
+                        <MDATTR name="Scan ID for SCAN SAR mode" type="int32" mode="rw">0</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Image Descriptor 4">
+                    <MDATTR name="Record code and location type flag" type="ascii" mode="rw">FTYP</MDATTR>
+                    <MDATTR name="Number of SAR DATA records" type="int32" mode="rw">5200</MDATTR>
+                    <MDATTR name="Number of lines per data set" type="int32" mode="rw">5200</MDATTR>
+                    <MDATTR name="SAR DATA record length" type="int32" mode="rw">4992</MDATTR>
+                    <MDATTR name="Generating software release and revision level" type="ascii" mode="rw">1.00</MDATTR>
+                    <MDATTR name="Record code field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="File name" type="ascii" mode="rw">AL1 PSRCIMOP</MDATTR>
+                    <MDATTR name="Format control document ID for this data file format" type="ascii" mode="rw">CEOS-SAR-CCT</MDATTR>
+                    <MDATTR name="Record Length" type="int32" mode="rw">720</MDATTR>
+                    <MDATTR name="Sequence number location" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Number of left fill bits within pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="ASCII/EBCDIC flag" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Record length field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="Number of bytes of prefix data per record" type="int32" mode="rw">192</MDATTR>
+                    <MDATTR name="Number of bytes of suffix data per record" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Second Record Subtype" type="int32" mode="rw">18</MDATTR>
+                    <MDATTR name="Interleaving indicator" type="ascii" mode="rw">BSQ</MDATTR>
+                    <MDATTR name="Maximum data range of pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of samples per data group" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Record Number" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="File number" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="First Record Subtype" type="int32" mode="rw">50</MDATTR>
+                    <MDATTR name="Number of left border pixels per line" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of physical records per line" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="File design descriptor revision letter" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Number of top border lines" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Number of bottom border lines" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Record length and location type flag" type="ascii" mode="rw">FLGT</MDATTR>
+                    <MDATTR name="Number of SAR channels in this file" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Format control document revision level" type="ascii" mode="rw">A</MDATTR>
+                    <MDATTR name="Number of pixels per line per SAR channel" type="int32" mode="rw">2400</MDATTR>
+                    <MDATTR name="Number of right fill bits within pixel" type="int32" mode="rw">0</MDATTR>
+                    <MDATTR name="Record sequence and location type flag" type="ascii" mode="rw">FSEQ</MDATTR>
+                    <MDATTR name="Record length location" type="int32" mode="rw">9</MDATTR>
+                    <MDATTR name="Third Record Subtype" type="int32" mode="rw">18</MDATTR>
+                    <MDATTR name="Number of bytes per data group" type="int32" mode="rw">2</MDATTR>
+                    <MDATTR name="Sequence number field length" type="int32" mode="rw">4</MDATTR>
+                    <MDATTR name="Record Type Code" type="int32" mode="rw">192</MDATTR>
+                    <MDATTR name="Record code location" type="int32" mode="rw">5</MDATTR>
+                    <MDATTR name="Number of bits per sample" type="int32" mode="rw">16</MDATTR>
+                    <MDATTR name="Number of physical records per multi-channel line" type="int32" mode="rw">1</MDATTR>
+                    <MDATTR name="Number of bytes of SAR data per record" type="int32" mode="rw">4800</MDATTR>
+                    <MDATTR name="Number of right border pixels per line" type="int32" mode="rw">0</MDATTR>
+                    <MDElem name="Image Record">
+                        <MDATTR name="SAR image data line number" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Sensor acquisition day of year" type="int32" mode="rw">111</MDATTR>
+                        <MDATTR name="SAR image data record index" type="int32" mode="rw">1</MDATTR>
+                        <MDATTR name="Last pixel longitude" type="int32" mode="rw">-111499944</MDATTR>
+                        <MDATTR name="PRF" type="int32" mode="rw">1930502</MDATTR>
+                        <MDATTR name="Sensor parameters update flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Mid-pixel Doppler centroid" type="int32" mode="rw">53119</MDATTR>
+                        <MDATTR name="Record Length" type="int32" mode="rw">4992</MDATTR>
+                        <MDATTR name="Mid-pixel longitude" type="int32" mode="rw">-111762167</MDATTR>
+                        <MDATTR name="Slant range to 1st pixel" type="int32" mode="rw">756426</MDATTR>
+                        <MDATTR name="Mid-pixel azimuth FM rate" type="int32" mode="rw">-572685</MDATTR>
+                        <MDATTR name="Azimuth squint angle" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Mid-pixel latitude" type="int32" mode="rw">60151024</MDATTR>
+                        <MDATTR name="First pixel azimuth FM rate" type="int32" mode="rw">-577380</MDATTR>
+                        <MDATTR name="Actual count of left-fill pixels" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="First pixel longitude" type="int32" mode="rw">-112023659</MDATTR>
+                        <MDATTR name="Sensor acquisition milliseconds of day" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Received polarization" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="SAR channel indicator" type="ascii" mode="rw">4</MDATTR>
+                        <MDATTR name="Sensor acquisition year" type="int32" mode="rw">2011</MDATTR>
+                        <MDATTR name="Actual count of right-fill pixels" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="First pixel latitude" type="int32" mode="rw">60117890</MDATTR>
+                        <MDATTR name="Nadir look angle" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="Geographic ref. parameter update flag" type="int32" mode="rw">0</MDATTR>
+                        <MDATTR name="SAR channel code" type="ascii" mode="rw">0</MDATTR>
+                        <MDATTR name="Actual count of data pixels" type="int32" mode="rw">2400</MDATTR>
+                        <MDATTR name="Transmitted polarization" type="ascii" mode="rw">1</MDATTR>
+                        <MDATTR name="Last pixel Doppler centroid" type="int32" mode="rw">52420</MDATTR>
+                        <MDATTR name="Last pixel latitude" type="int32" mode="rw">60183667</MDATTR>
+                        <MDATTR name="Slant range to last pixel" type="int32" mode="rw">768545</MDATTR>
+                        <MDATTR name="Slant range to mid-pixel" type="int32" mode="rw">762344</MDATTR>
+                        <MDATTR name="First pixel Doppler centroid" type="int32" mode="rw">53785</MDATTR>
+                        <MDATTR name="Last pixel azimuth FM rate" type="int32" mode="rw">-567848</MDATTR>
+                        <MDATTR name="Scan ID for SCAN SAR mode" type="int32" mode="rw">0</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="Work Report">
+                    <MDATTR name="Ach_CalibrationDataCheck" type="ascii">OK</MDATTR>
+                    <MDATTR name="Ach_PRF_Check" type="ascii">OK</MDATTR>
+                    <MDATTR name="Brs_BrowseBitPixel" type="ascii">8</MDATTR>
+                    <MDATTR name="Brs_BrowseDataLength" type="ascii">300</MDATTR>
+                    <MDATTR name="Brs_BrowseDataSize" type="ascii">205</MDATTR>
+                    <MDATTR name="Brs_FrameSceneCenterLatitude" type="ascii">59.868</MDATTR>
+                    <MDATTR name="Brs_FrameSceneCenterLongitude" type="ascii">-111.622</MDATTR>
+                    <MDATTR name="Brs_FrameSceneLeftBottomLatitude" type="ascii">59.531</MDATTR>
+                    <MDATTR name="Brs_FrameSceneLeftBottomLongitude" type="ascii">-111.729</MDATTR>
+                    <MDATTR name="Brs_FrameSceneLeftTopLatitude" type="ascii">60.139</MDATTR>
+                    <MDATTR name="Brs_FrameSceneLeftTopLongitude" type="ascii">-112.035</MDATTR>
+                    <MDATTR name="Brs_FrameSceneRightBottomLatitude" type="ascii">59.595</MDATTR>
+                    <MDATTR name="Brs_FrameSceneRightBottomLongitude" type="ascii">-111.215</MDATTR>
+                    <MDATTR name="Brs_FrameSceneRightTopLatitude" type="ascii">60.205</MDATTR>
+                    <MDATTR name="Brs_FrameSceneRightTopLongitude" type="ascii">-111.513</MDATTR>
+                    <MDATTR name="Brs_ImageSceneCenterLatitude" type="ascii">59.868</MDATTR>
+                    <MDATTR name="Brs_ImageSceneCenterLongitude" type="ascii">-111.620</MDATTR>
+                    <MDATTR name="Brs_ImageSceneLeftBottomLatitude" type="ascii">59.555</MDATTR>
+                    <MDATTR name="Brs_ImageSceneLeftBottomLongitude" type="ascii">-111.729</MDATTR>
+                    <MDATTR name="Brs_ImageSceneLeftTopLatitude" type="ascii">60.119</MDATTR>
+                    <MDATTR name="Brs_ImageSceneLeftTopLongitude" type="ascii">-112.014</MDATTR>
+                    <MDATTR name="Brs_ImageSceneRightBottomLatitude" type="ascii">59.616</MDATTR>
+                    <MDATTR name="Brs_ImageSceneRightBottomLongitude" type="ascii">-111.233</MDATTR>
+                    <MDATTR name="Brs_ImageSceneRightTopLatitude" type="ascii">60.181</MDATTR>
+                    <MDATTR name="Brs_ImageSceneRightTopLongitude" type="ascii">-111.509</MDATTR>
+                    <MDATTR name="Brs_L1BrowseFileName" type="ascii">EALPSRP279071200.BRS</MDATTR>
+                    <MDATTR name="Brs_MethodOfPixelPutting" type="ascii">M</MDATTR>
+                    <MDATTR name="Brs_NoOfBrowseLines" type="ascii">700</MDATTR>
+                    <MDATTR name="Brs_NoOfBrowsePixels" type="ascii">300</MDATTR>
+                    <MDATTR name="Brs_SceneCenterDateTime" type="ascii">20110421 05:15:19.130</MDATTR>
+                    <MDATTR name="Brs_SceneStartDateTime" type="ascii">20110421 05:15:14.356</MDATTR>
+                    <MDATTR name="Img_FrameSceneCenterLatitude" type="ascii">59.868</MDATTR>
+                    <MDATTR name="Img_FrameSceneCenterLongitude" type="ascii">-111.620</MDATTR>
+                    <MDATTR name="Img_FrameSceneLeftBottomLatitude" type="ascii">59.552</MDATTR>
+                    <MDATTR name="Img_FrameSceneLeftBottomLongitude" type="ascii">-111.738</MDATTR>
+                    <MDATTR name="Img_FrameSceneLeftTopLatitude" type="ascii">60.118</MDATTR>
+                    <MDATTR name="Img_FrameSceneLeftTopLongitude" type="ascii">-112.024</MDATTR>
+                    <MDATTR name="Img_FrameSceneRightBottomLatitude" type="ascii">59.617</MDATTR>
+                    <MDATTR name="Img_FrameSceneRightBottomLongitude" type="ascii">-111.223</MDATTR>
+                    <MDATTR name="Img_FrameSceneRightTopLatitude" type="ascii">60.184</MDATTR>
+                    <MDATTR name="Img_FrameSceneRightTopLongitude" type="ascii">-111.500</MDATTR>
+                    <MDATTR name="Img_ImageSceneCenterLatitude" type="ascii">59.868</MDATTR>
+                    <MDATTR name="Img_ImageSceneCenterLongitude" type="ascii">-111.620</MDATTR>
+                    <MDATTR name="Img_ImageSceneLeftBottomLatitude" type="ascii">59.555</MDATTR>
+                    <MDATTR name="Img_ImageSceneLeftBottomLongitude" type="ascii">-111.729</MDATTR>
+                    <MDATTR name="Img_ImageSceneLeftTopLatitude" type="ascii">60.119</MDATTR>
+                    <MDATTR name="Img_ImageSceneLeftTopLongitude" type="ascii">-112.014</MDATTR>
+                    <MDATTR name="Img_ImageSceneRightBottomLatitude" type="ascii">59.616</MDATTR>
+                    <MDATTR name="Img_ImageSceneRightBottomLongitude" type="ascii">-111.233</MDATTR>
+                    <MDATTR name="Img_ImageSceneRightTopLatitude" type="ascii">60.181</MDATTR>
+                    <MDATTR name="Img_ImageSceneRightTopLongitude" type="ascii">-111.509</MDATTR>
+                    <MDATTR name="Img_NoOfPSR_CorLossLines" type="ascii">0</MDATTR>
+                    <MDATTR name="Img_OffNadirAngle" type="ascii">21.5</MDATTR>
+                    <MDATTR name="Img_SceneCenterDateTime" type="ascii">20110421 05:15:19.130</MDATTR>
+                    <MDATTR name="Img_SceneEndDateTime" type="ascii">20110421 05:15:23.904</MDATTR>
+                    <MDATTR name="Img_SceneStartDateTime" type="ascii">20110421 05:15:14.356</MDATTR>
+                    <MDATTR name="Odi_ProductManagementBranchNo" type="ascii">815</MDATTR>
+                    <MDATTR name="Odi_ProductManagementNo" type="ascii">X0200065</MDATTR>
+                    <MDATTR name="Pdi_BitPixel" type="ascii">16</MDATTR>
+                    <MDATTR name="Pdi_CntOfL15ProductFileName" type="ascii">7</MDATTR>
+                    <MDATTR name="Pdi_L15ProductFileName01" type="ascii">VOL-ALPSRP279071200-P1.5_UA</MDATTR>
+                    <MDATTR name="Pdi_L15ProductFileName02" type="ascii">LED-ALPSRP279071200-P1.5_UA</MDATTR>
+                    <MDATTR name="Pdi_L15ProductFileName03" type="ascii">IMG-HH-ALPSRP279071200-P1.5_UA</MDATTR>
+                    <MDATTR name="Pdi_L15ProductFileName04" type="ascii">IMG-HV-ALPSRP279071200-P1.5_UA</MDATTR>
+                    <MDATTR name="Pdi_L15ProductFileName05" type="ascii">IMG-VH-ALPSRP279071200-P1.5_UA</MDATTR>
+                    <MDATTR name="Pdi_L15ProductFileName06" type="ascii">IMG-VV-ALPSRP279071200-P1.5_UA</MDATTR>
+                    <MDATTR name="Pdi_L15ProductFileName07" type="ascii">TRL-ALPSRP279071200-P1.5_UA</MDATTR>
+                    <MDATTR name="Pdi_NoOfLines" type="ascii">5200</MDATTR>
+                    <MDATTR name="Pdi_NoOfPixels" type="ascii">2400</MDATTR>
+                    <MDATTR name="Pdi_ProductDataSize" type="ascii">111.4</MDATTR>
+                    <MDATTR name="Pdi_ProductFormat" type="ascii">CEOS</MDATTR>
+                    <MDATTR name="Pds_PixelSpacing" type="ascii">12.5</MDATTR>
+                    <MDATTR name="Pds_ProductID" type="ascii">P1.5_UA</MDATTR>
+                    <MDATTR name="Pds_ResamplingMethod" type="ascii">BL</MDATTR>
+                    <MDATTR name="Pds_UTM_ZoneNo" type="ascii">12</MDATTR>
+                    <MDATTR name="Rst_PSR_CorPrcEndTime" type="ascii">20161023 11:29:40</MDATTR>
+                    <MDATTR name="Rst_PSR_CorPrcStartTime" type="ascii">20161023 11:26:36</MDATTR>
+                    <MDATTR name="Rst_PSR_CorPrcStatus" type="ascii">0000</MDATTR>
+                    <MDATTR name="Scs_SceneID" type="ascii">ALPSRP279071200</MDATTR>
+                    <MDATTR name="Ver_OS_VersionInDataProcessingUnit" type="ascii">Red Hat Enterprise Linux Server release 5.3</MDATTR>
+                    <MDATTR name="Ver_PSR_CorControl" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorDataQualitySummary" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorFacility11" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorMapProjection" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorParameter1" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorParameter2" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorParameter3" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorParameter4" type="ascii">12.01</MDATTR>
+                    <MDATTR name="Ver_PSR_CorParameter5" type="ascii">10.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorPrcControl" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorPrcSigmaSAR" type="ascii">12.01</MDATTR>
+                    <MDATTR name="Ver_PSR_CorPrcSupproduct" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorProcessedHeader" type="ascii">12.00</MDATTR>
+                    <MDATTR name="Ver_PSR_CorRadiometric" type="ascii">12.00</MDATTR>
+                </MDElem>
+            </MDElem>
+            <MDElem name="Processing_Graph">
+                <MDElem name="node.0">
+                    <MDATTR name="id" type="ascii" mode="rw">BandSelect$193AED399DF</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">BandSelect</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SAR Utility Operators</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">11.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Creates a new product with only selected bands</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Jun Lu, Luis Veci</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">Copyright (C) 2015 by Array Systems Computing Inc.</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-12-10T04:28:43.375Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/C:/Users/VAIBHAV%20SOIN/Desktop/ALPSRP279071200-L1.5/ALPSRP279071200-L1.5/VOL-ALPSRP279071200-P1.5_UA</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters" />
+                </MDElem>
+                <MDElem name="node.1">
+                    <MDATTR name="id" type="ascii" mode="rw">Calibration$193AED39AB2</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Calibration</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SAR Calibration</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">11.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Calibration of products</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Jun Lu, Luis Veci</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">Copyright (C) 2014 by Array Systems Computing Inc.</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-12-10T04:28:43.588Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">BandSelect$193AED399DF</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="outputSigmaBand" type="ascii">true</MDATTR>
+                        <MDATTR name="outputImageScaleInDb" type="ascii">false</MDATTR>
+                        <MDATTR name="createGammaBand" type="ascii">false</MDATTR>
+                        <MDATTR name="outputGammaBand" type="ascii">false</MDATTR>
+                        <MDATTR name="outputImageInComplex" type="ascii">false</MDATTR>
+                        <MDATTR name="outputBetaBand" type="ascii">false</MDATTR>
+                        <MDATTR name="auxFile" type="ascii">Latest Auxiliary File</MDATTR>
+                        <MDATTR name="createBetaBand" type="ascii">false</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.2">
+                    <MDATTR name="id" type="ascii" mode="rw">Speckle-Filter$193AED3BB41</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Speckle-Filter</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SAR Processing</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">11.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Speckle Reduction</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Jun Lu, Luis Veci</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">Copyright (C) 2014 by Array Systems Computing Inc.</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-12-10T04:28:51.917Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/C:/Users/VAIBHAV%20SOIN/Downloads/trial10_calibrated.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="filter" type="ascii">Refined Lee</MDATTR>
+                        <MDATTR name="enl" type="ascii">1.0</MDATTR>
+                        <MDATTR name="windowSize" type="ascii">7x7</MDATTR>
+                        <MDATTR name="anSize" type="ascii">50</MDATTR>
+                        <MDATTR name="filterSizeY" type="ascii">3</MDATTR>
+                        <MDATTR name="targetWindowSizeStr" type="ascii">3x3</MDATTR>
+                        <MDATTR name="filterSizeX" type="ascii">3</MDATTR>
+                        <MDATTR name="sigmaStr" type="ascii">0.9</MDATTR>
+                        <MDATTR name="numLooksStr" type="ascii">1</MDATTR>
+                        <MDATTR name="dampingFactor" type="ascii">2</MDATTR>
+                        <MDATTR name="estimateENL" type="ascii">false</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.3">
+                    <MDATTR name="id" type="ascii" mode="rw">Terrain-Correction$193AED4C28D</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Terrain-Correction</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SAR Processing</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">11.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">RD method for orthorectification</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Jun Lu, Luis Veci</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">Copyright (C) 2014 by Array Systems Computing Inc.</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-12-10T04:29:59.346Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/C:/Users/VAIBHAV%20SOIN/Downloads/rltrial.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="saveLatLon" type="ascii">false</MDATTR>
+                        <MDATTR name="saveIncidenceAngleFromEllipsoid" type="ascii">false</MDATTR>
+                        <MDATTR name="nodataValueAtSea" type="ascii">true</MDATTR>
+                        <MDATTR name="alignToStandardGrid" type="ascii">false</MDATTR>
+                        <MDATTR name="pixelSpacingInMeter" type="ascii">12.5</MDATTR>
+                        <MDATTR name="mapProjection" type="ascii">WGS84(DD)</MDATTR>
+                        <MDATTR name="saveBetaNought" type="ascii">false</MDATTR>
+                        <MDATTR name="demResamplingMethod" type="ascii">BILINEAR_INTERPOLATION</MDATTR>
+                        <MDATTR name="imgResamplingMethod" type="ascii">BILINEAR_INTERPOLATION</MDATTR>
+                        <MDATTR name="saveSigmaNought" type="ascii">false</MDATTR>
+                        <MDATTR name="incidenceAngleForSigma0" type="ascii">Use projected local incidence angle from DEM</MDATTR>
+                        <MDATTR name="sourceBands" type="ascii">Sigma0_HH,Sigma0_HV,Sigma0_VH,Sigma0_VV</MDATTR>
+                        <MDATTR name="applyRadiometricNormalization" type="ascii">false</MDATTR>
+                        <MDATTR name="externalDEMApplyEGM" type="ascii">true</MDATTR>
+                        <MDATTR name="saveSelectedSourceBand" type="ascii">true</MDATTR>
+                        <MDATTR name="demName" type="ascii">SRTM 3Sec</MDATTR>
+                        <MDATTR name="externalDEMNoDataValue" type="ascii">0.0</MDATTR>
+                        <MDATTR name="outputComplex" type="ascii">false</MDATTR>
+                        <MDATTR name="saveProjectedLocalIncidenceAngle" type="ascii">false</MDATTR>
+                        <MDATTR name="incidenceAngleForGamma0" type="ascii">Use projected local incidence angle from DEM</MDATTR>
+                        <MDATTR name="saveGammaNought" type="ascii">false</MDATTR>
+                        <MDATTR name="saveLocalIncidenceAngle" type="ascii">false</MDATTR>
+                        <MDATTR name="standardGridOriginX" type="ascii">0.0</MDATTR>
+                        <MDATTR name="saveDEM" type="ascii">true</MDATTR>
+                        <MDATTR name="standardGridOriginY" type="ascii">0.0</MDATTR>
+                        <MDATTR name="saveLayoverShadowMask" type="ascii">false</MDATTR>
+                        <MDATTR name="pixelSpacingInDegree" type="ascii">1.1228941051494019E-4</MDATTR>
+                        <MDATTR name="auxFile" type="ascii">Latest Auxiliary File</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.4">
+                    <MDATTR name="id" type="ascii" mode="rw">LinearToFromdB$193AED5BAB8</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">LinearToFromdB</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Raster Operators</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">11.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Converts bands to/from dB</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Jun Lu, Luis Veci</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.0</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">Copyright (C) 2015 by Array Systems Computing Inc.</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-12-10T04:31:02.888Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct" type="ascii" mode="rw">file:/C:/Users/VAIBHAV%20SOIN/Downloads/rltrial_tc_all_bands.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters" />
+                </MDElem>
+                <MDElem name="node.5">
+                    <MDATTR name="id" type="ascii" mode="rw">BandMaths$193AEDB7947</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">BandMaths</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Graph Processing Framework (GPF)</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">11.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Create a product with one or more bands using mathematical expressions.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Marco Zuehlke, Norman Fomferra, Marco Peters</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.1</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2013 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-12-10T04:37:19.407Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct.1" type="ascii" mode="rw">file:/C:/Users/VAIBHAV%20SOIN/Downloads/rltrial_tc_db.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDElem name="targetBands">
+                            <MDElem name="targetBand">
+                                <MDATTR name="expression" type="ascii">Sigma0_HH_db&lt;-12?1:0</MDATTR>
+                                <MDATTR name="name" type="ascii">Still_water</MDATTR>
+                                <MDATTR name="type" type="ascii">float32</MDATTR>
+                            </MDElem>
+                        </MDElem>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.6">
+                    <MDATTR name="id" type="ascii" mode="rw">Merge$193AEDDBCAD</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">Merge</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Graph Processing Framework (GPF)</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">11.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Allows merging of several source products by using specified 'master' as reference product.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">SNAP Team</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.3</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2012 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-12-10T04:39:47.638Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="masterProduct" type="ascii" mode="rw">file:/C:/Users/VAIBHAV%20SOIN/Downloads/still_water_mask.dim</MDATTR>
+                        <MDATTR name="slaveProduct" type="ascii" mode="rw">file:/C:/Users/VAIBHAV%20SOIN/Downloads/total_water_mask.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDATTR name="geographicError" type="ascii">1.0E-5</MDATTR>
+                    </MDElem>
+                </MDElem>
+                <MDElem name="node.7">
+                    <MDATTR name="id" type="ascii" mode="rw">BandMaths$193AEDE0870</MDATTR>
+                    <MDATTR name="operator" type="ascii" mode="rw">BandMaths</MDATTR>
+                    <MDATTR name="moduleName" type="ascii" mode="rw">SNAP Graph Processing Framework (GPF)</MDATTR>
+                    <MDATTR name="moduleVersion" type="ascii" mode="rw">11.0.0</MDATTR>
+                    <MDATTR name="purpose" type="ascii" mode="rw">Create a product with one or more bands using mathematical expressions.</MDATTR>
+                    <MDATTR name="authors" type="ascii" mode="rw">Marco Zuehlke, Norman Fomferra, Marco Peters</MDATTR>
+                    <MDATTR name="version" type="ascii" mode="rw">1.1</MDATTR>
+                    <MDATTR name="copyright" type="ascii" mode="rw">(c) 2013 by Brockmann Consult</MDATTR>
+                    <MDATTR name="processingTime" type="ascii" mode="rw">2024-12-10T04:40:07.024Z</MDATTR>
+                    <MDElem name="sources">
+                        <MDATTR name="sourceProduct.1" type="ascii" mode="rw">file:/C:/Users/VAIBHAV%20SOIN/Downloads/merged_mask.dim</MDATTR>
+                    </MDElem>
+                    <MDElem name="parameters">
+                        <MDElem name="targetBands">
+                            <MDElem name="targetBand">
+                                <MDATTR name="unit" type="ascii" />
+                                <MDATTR name="expression" type="ascii">Total_water*(1-Still_water)</MDATTR>
+                                <MDATTR name="name" type="ascii">Running_water</MDATTR>
+                                <MDATTR name="description" type="ascii" />
+                                <MDATTR name="type" type="ascii">float32</MDATTR>
+                            </MDElem>
+                        </MDElem>
+                    </MDElem>
+                </MDElem>
+            </MDElem>
+        </MDElem>
+    </Dataset_Sources>
+</Dimap_Document>
